@@ -612,9 +612,11 @@ footer .footer__texto h4 {
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
     width: 300px;
+    height: 150px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
     width: 300px;
+    height: 150px;
   }
   #contacto .allcontacto .formulario #textarea {
     height: 150px;
@@ -697,9 +699,11 @@ footer .footer__texto h4 {
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
     width: 350px;
+    height: 175px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
     width: 350px;
+    height: 175px;
   }
   #contacto .allcontacto .formulario #textarea {
     height: 200px;
@@ -1295,9 +1299,11 @@ footer .footer__texto h4 {
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
     width: 400px;
+    height: 200px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
     width: 400px;
+    height: 200px;
   }
   #contacto .allcontacto .formulario #textarea,
   #contacto .allcontacto .formulario #mail {
@@ -1367,9 +1373,11 @@ footer .footer__texto h4 {
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
     width: 400px;
+    height: 200px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
     width: 400px;
+    height: 200px;
   }
   #contacto .allcontacto .formulario #textarea,
   #contacto .allcontacto .formulario #mail {
@@ -1439,9 +1447,11 @@ footer .footer__texto h4 {
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
     width: 450px;
+    height: 225px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
     width: 450px;
+    height: 225px;
   }
   #contacto .allcontacto .formulario #textarea,
   #contacto .allcontacto .formulario #mail {
