@@ -176,11 +176,11 @@ header .header__nav .navbar .container-fluid li {
 }
 header .carousel {
   width: 100%;
-  height: 550px;
+  height: 515px;
 }
 header .carousel .carousel__foto {
   width: 100%;
-  height: 550px;
+  height: 515px;
   object-fit: fill;
 }
 
@@ -405,10 +405,10 @@ main .main__titulo .container-fluid button:hover {
   font-size: 16px;
   cursor: pointer;
   display: block;
-  margin: -5px 15px 40px 15px;
+  margin: -5px 15px 43px 15px;
 }
 #contacto .allcontacto .formulario #textarea {
-  height: 360px;
+  height: 365px;
 }
 #contacto .allcontacto .formulario #textarea,
 #contacto .allcontacto .formulario #mail {
@@ -553,7 +553,7 @@ footer .footer__texto h4 {
 /* 360px & 399px */
 @media screen and (min-width: 360px) and (max-width: 399px) {
   body {
-    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-rows: repeat(7, auto);
     grid-template-columns: 100%;
     grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
   }
@@ -638,7 +638,7 @@ footer .footer__texto h4 {
 /* 400px & 459px */
 @media screen and (min-width: 400px) and (max-width: 459px) {
   body {
-    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-rows: repeat(7, auto);
     grid-template-columns: 100%;
     grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
   }
@@ -720,7 +720,7 @@ footer .footer__texto h4 {
 /* 460px & 509px */
 @media screen and (min-width: 460px) and (max-width: 509px) {
   body {
-    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-rows: repeat(7, auto);
     grid-template-columns: 100%;
     grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
   }
@@ -776,9 +776,11 @@ footer .footer__texto h4 {
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
     width: 400px;
+    height: 200px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
     width: 400px;
+    height: 200px;
   }
   #contacto .allcontacto .formulario #textarea {
     height: 250px;
@@ -799,7 +801,7 @@ footer .footer__texto h4 {
 /* 510px & 560px */
 @media screen and (min-width: 510px) and (max-width: 560px) {
   body {
-    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-rows: repeat(7, auto);
     grid-template-columns: 100%;
     grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
   }
@@ -855,9 +857,11 @@ footer .footer__texto h4 {
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
     width: 450px;
+    height: 225px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
     width: 450px;
+    height: 225px;
   }
   #contacto .allcontacto .formulario #textarea {
     height: 300px;
@@ -878,7 +882,7 @@ footer .footer__texto h4 {
 /* 561px & 569px */
 @media screen and (min-width: 561px) and (max-width: 569px) {
   body {
-    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-rows: repeat(7, auto);
     grid-template-columns: 100%;
     grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
   }
@@ -928,9 +932,11 @@ footer .footer__texto h4 {
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
     width: 450px;
+    height: 225px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
     width: 450px;
+    height: 225px;
   }
   #sucursales .allsucursales .allsucursales__sucursales {
     margin-bottom: 30px;
@@ -958,7 +964,7 @@ footer .footer__texto h4 {
 /* 570px & 659px */
 @media screen and (min-width: 570px) and (max-width: 659px) {
   body {
-    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-rows: repeat(7, auto);
     grid-template-columns: 100%;
     grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
   }
@@ -990,10 +996,10 @@ footer .footer__texto h4 {
     margin: 0px 0px 30px 0px;
   }
 }
-/* 660px & 869px */
-@media screen and (min-width: 660px) and (max-width: 869px) {
+/* 660px & 730px */
+@media screen and (min-width: 660px) and (max-width: 730px) {
   body {
-    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-rows: repeat(7, auto);
     grid-template-columns: 100%;
     grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
   }
@@ -1016,34 +1022,32 @@ footer .footer__texto h4 {
     display: inline-block;
   }
   #productos .allproducto .allproducto__producto .producto__foto {
-    height: 200px;
-    width: 250px;
+    height: 125px;
+    width: 125px;
   }
   #nosotros .nosotros .carousel {
-    width: 600px;
+    width: 300px;
+    height: 300px;
   }
   #nosotros .nosotros .carousel .carousel__foto {
-    width: 600px;
+    width: 300px;
+    height: 300px;
   }
   #nosotros .nosotros .nosotros__texto {
-    width: 600px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
   }
   #servicios .servicios .carousel {
-    width: 600px;
+    width: 300px;
+    height: 300px;
   }
   #servicios .servicios .carousel .carousel__foto {
-    width: 600px;
+    width: 300px;
+    height: 300px;
   }
   #servicios .servicios .servicios__texto {
-    width: 600px;
-    height: 400px;
-  }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
-    width: 600px;
-  }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
-    width: 600px;
+    width: 300px;
+    height: 300px;
   }
   #sucursales .allsucursales {
     margin-bottom: 0px;
@@ -1053,23 +1057,109 @@ footer .footer__texto h4 {
   }
   #contacto .allcontacto .formulario #textarea,
   #contacto .allcontacto .formulario #mail {
-    width: 600px;
+    width: 300px;
   }
   #contacto .allcontacto .formulario #textarea {
-    height: 250px;
+    height: 160px;
   }
   #contacto .carousel {
     margin: 0px 0px 30px 0px;
-    width: 600px;
+    width: 300px;
+    height: 300px;
   }
   #contacto .carousel .carousel__foto {
-    width: 600px;
+    width: 300px;
+    height: 300px;
+  }
+}
+/* 731px & 869px */
+@media screen and (min-width: 731px) and (max-width: 869px) {
+  body {
+    grid-template-rows: repeat(7, auto);
+    grid-template-columns: 100%;
+    grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
+  }
+  /* Header */
+  header .navbar {
+    margin: 0px 0px 30px 0px;
+  }
+  header .header__logo {
+    margin: 30px 0px 15px 0px;
+  }
+  header .header__nav {
+    justify-content: center;
+    align-items: center;
+  }
+  header .header__nav .nav__carro {
+    margin: 0px 0px 30px 30px;
+  }
+  /* Main */
+  #productos .allproducto .allproducto__producto {
+    display: inline-block;
+  }
+  #productos .allproducto .allproducto__producto .producto__foto {
+    height: 125px;
+    width: 125px;
+  }
+  #nosotros .nosotros .carousel {
+    width: 300px;
+    height: 300px;
+  }
+  #nosotros .nosotros .carousel .carousel__foto {
+    width: 300px;
+    height: 300px;
+  }
+  #nosotros .nosotros .nosotros__texto {
+    width: 300px;
+    height: 300px;
+  }
+  #servicios .servicios .carousel {
+    width: 300px;
+    height: 300px;
+  }
+  #servicios .servicios .carousel .carousel__foto {
+    width: 300px;
+    height: 300px;
+  }
+  #servicios .servicios .servicios__texto {
+    width: 300px;
+    height: 300px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
+    width: 300px;
+    height: 150px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+    width: 300px;
+    height: 150px;
+  }
+  #sucursales .allsucursales {
+    margin-bottom: 0px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales {
+    margin-bottom: 30px;
+  }
+  #contacto .allcontacto .formulario #textarea,
+  #contacto .allcontacto .formulario #mail {
+    width: 300px;
+  }
+  #contacto .allcontacto .formulario #textarea {
+    height: 160px;
+  }
+  #contacto .carousel {
+    margin: 0px 0px 30px 0px;
+    width: 300px;
+    height: 300px;
+  }
+  #contacto .carousel .carousel__foto {
+    width: 300px;
+    height: 300px;
   }
 }
 /* 870px & 879px */
 @media screen and (min-width: 870px) and (max-width: 879px) {
   body {
-    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-rows: repeat(7, auto);
     grid-template-columns: 100%;
     grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
   }
@@ -1089,41 +1179,46 @@ footer .footer__texto h4 {
   }
   /* Main */
   #productos .allproducto {
-    width: 600px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
   }
   #productos .allproducto .allproducto__producto .producto__foto {
-    height: 200px;
-    width: 250px;
+    height: 150px;
+    width: 150px;
   }
   #nosotros .nosotros .carousel {
-    width: 600px;
+    width: 350px;
+    height: 350px;
   }
   #nosotros .nosotros .carousel .carousel__foto {
-    width: 600px;
+    width: 350px;
+    height: 350px;
   }
   #nosotros .nosotros .nosotros__texto {
-    width: 600px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
   }
   #servicios .servicios .carousel {
-    width: 600px;
+    width: 350px;
+    height: 350px;
   }
   #servicios .servicios .carousel .carousel__foto {
-    width: 600px;
+    width: 350px;
+    height: 350px;
   }
   #servicios .servicios .servicios__texto {
-    width: 600px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
-    width: 600px;
+    width: 350px;
+    height: 175px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
-    width: 600px;
+    width: 350px;
+    height: 175px;
   }
   #sucursales .allsucursales {
     margin-bottom: 0px;
@@ -1133,23 +1228,25 @@ footer .footer__texto h4 {
   }
   #contacto .allcontacto .formulario #textarea,
   #contacto .allcontacto .formulario #mail {
-    width: 600px;
+    width: 350px;
   }
   #contacto .allcontacto .formulario #textarea {
-    height: 250px;
+    height: 210px;
   }
   #contacto .carousel {
     margin: 0px 0px 30px 0px;
-    width: 600px;
+    width: 350px;
+    height: 350px;
   }
   #contacto .carousel .carousel__foto {
-    width: 600px;
+    width: 350px;
+    height: 350px;
   }
 }
 /* 880px & 991px */
 @media screen and (min-width: 880px) and (max-width: 991px) {
   body {
-    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-rows: repeat(7, auto);
     grid-template-columns: 100%;
     grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
   }
@@ -1221,7 +1318,7 @@ footer .footer__texto h4 {
 /* 992px & 999px */
 @media screen and (min-width: 992px) and (max-width: 999px) {
   body {
-    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-rows: repeat(7, auto);
     grid-template-columns: 100%;
     grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
   }
@@ -1293,7 +1390,7 @@ footer .footer__texto h4 {
 /* 1000px & 1090px */
 @media screen and (min-width: 1000px) and (max-width: 1090px) {
   body {
-    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-rows: repeat(7, auto);
     grid-template-columns: 100%;
     grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
   }
@@ -1365,7 +1462,7 @@ footer .footer__texto h4 {
 /* 1091px & 1200px */
 @media screen and (min-width: 1091px) and (max-width: 1200px) {
   body {
-    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-rows: repeat(7, auto);
     grid-template-columns: 100%;
     grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
   }
