@@ -7,7 +7,7 @@
       width: 100%;
       display: flex;
       flex-flow: row wrap;
-      justify-content: space-evenly;
+      justify-content: center;
       align-items: center;
       margin-bottom: 15px;
   
@@ -20,7 +20,7 @@
         .carousel__foto {
           height: 500px;
           width: 500px;
-          object-fit: fill;
+          object-fit: contain;
         }
       }
   
@@ -41,7 +41,7 @@
           margin-top: 20px;
   
           ul li h5 {
-            line-height: 0.5;
+            line-height: 1;
           }
         }
       }

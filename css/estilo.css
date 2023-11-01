@@ -144,7 +144,7 @@ header .header__nav {
   margin: 0px 0px 15px 0px;
 }
 header .header__nav .nav__carro {
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 5px 0px;
 }
 header .header__nav .nav__carro:hover {
   scale: 1.2;
@@ -174,13 +174,9 @@ header .header__nav .navbar .container-fluid nav ul li {
 header .header__nav .navbar .container-fluid li {
   margin: 5px 0px 5px 0px;
 }
-header .carousel {
+header .carousel__foto {
   width: 100%;
-  height: 530px;
-}
-header .carousel .carousel__foto {
-  width: 100%;
-  height: 530px;
+  height: 500px;
   object-fit: fill;
 }
 
@@ -269,7 +265,7 @@ main .main__titulo .container-fluid button:hover {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin-bottom: 15px;
 }
@@ -330,7 +326,6 @@ main .main__titulo .container-fluid button:hover {
 #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
   height: 250px;
   width: 500px;
-  object-fit: fill;
   box-shadow: 15px 15px 15px #402e32;
 }
 
@@ -342,7 +337,7 @@ main .main__titulo .container-fluid button:hover {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin-bottom: 15px;
 }
@@ -355,7 +350,7 @@ main .main__titulo .container-fluid button:hover {
 #servicios .servicios .carousel .carousel__foto {
   height: 500px;
   width: 500px;
-  object-fit: fill;
+  object-fit: contain;
 }
 #servicios .servicios .servicios__texto {
   width: 500px;
@@ -373,7 +368,7 @@ main .main__titulo .container-fluid button:hover {
   margin-top: 20px;
 }
 #servicios .servicios .servicios__texto .texto__2 ul li h5 {
-  line-height: 0.5;
+  line-height: 1;
 }
 
 /* Contacto */
@@ -405,10 +400,10 @@ main .main__titulo .container-fluid button:hover {
   font-size: 16px;
   cursor: pointer;
   display: block;
-  margin: -5px 15px 43px 15px;
+  margin: -10px 15px 43px 15px;
 }
 #contacto .allcontacto .formulario #textarea {
-  height: 365px;
+  height: 360px;
 }
 #contacto .allcontacto .formulario #textarea,
 #contacto .allcontacto .formulario #mail {
@@ -566,7 +561,7 @@ footer .footer__texto h4 {
     align-items: center;
   }
   header .header__nav .nav__carro {
-    margin: 0px 0px 10px 30px;
+    margin: 5px 0px 10px 30px;
   }
   /* Main */
   #nosotros .nosotros .carousel {
@@ -616,7 +611,7 @@ footer .footer__texto h4 {
     height: 150px;
   }
   #contacto .allcontacto .formulario #textarea {
-    height: 150px;
+    height: 160px;
   }
   #contacto .allcontacto .formulario #textarea, #contacto .allcontacto .formulario #mail {
     width: 300px;
@@ -653,7 +648,7 @@ footer .footer__texto h4 {
     margin: 0px 0px 10px 30px;
   }
   header .header__nav .nav__carro {
-    margin: -5px 0px 10px 30px;
+    margin: 5px 0px 10px 30px;
   }
   /* Main */
   #nosotros .nosotros .carousel {
@@ -703,7 +698,7 @@ footer .footer__texto h4 {
     height: 175px;
   }
   #contacto .allcontacto .formulario #textarea {
-    height: 200px;
+    height: 210px;
   }
   #contacto .allcontacto .formulario #textarea, #contacto .allcontacto .formulario #mail {
     width: 350px;
@@ -734,7 +729,7 @@ footer .footer__texto h4 {
     align-items: center;
   }
   header .header__nav .nav__carro {
-    margin: 0px 0px 10px 30px;
+    margin: 5px 0px 10px 30px;
   }
   /* Main */
   #nosotros .nosotros .carousel {
@@ -781,7 +776,7 @@ footer .footer__texto h4 {
     height: 200px;
   }
   #contacto .allcontacto .formulario #textarea {
-    height: 250px;
+    height: 260px;
   }
   #contacto .allcontacto .formulario #textarea, #contacto .allcontacto .formulario #mail {
     width: 400px;
@@ -812,7 +807,7 @@ footer .footer__texto h4 {
     align-items: center;
   }
   header .header__nav .nav__carro {
-    margin: 0px 0px 10px 30px;
+    margin: 5px 0px 10px 30px;
   }
   /* Main */
   #nosotros .nosotros .carousel {
@@ -859,7 +854,7 @@ footer .footer__texto h4 {
     height: 225px;
   }
   #contacto .allcontacto .formulario #textarea {
-    height: 300px;
+    height: 310px;
   }
   #contacto .allcontacto .formulario #textarea, #contacto .allcontacto .formulario #mail {
     width: 450px;
@@ -890,7 +885,7 @@ footer .footer__texto h4 {
     align-items: center;
   }
   header .header__nav .nav__carro {
-    margin: 0px 0px 10px 30px;
+    margin: 5px 0px 10px 30px;
   }
   /* Main */
   #nosotros .nosotros .carousel {
@@ -941,7 +936,7 @@ footer .footer__texto h4 {
     width: 450px;
   }
   #contacto .allcontacto .formulario #textarea {
-    height: 300px;
+    height: 310px;
   }
   #contacto .carousel {
     margin: 0px 0px 30px 0px;
@@ -969,7 +964,7 @@ footer .footer__texto h4 {
     align-items: center;
   }
   header .header__nav .nav__carro {
-    margin: 0px 0px 10px 30px;
+    margin: 5px 0px 10px 30px;
   }
   /* Main */
   #sucursales .allsucursales {
@@ -1001,7 +996,7 @@ footer .footer__texto h4 {
     align-items: center;
   }
   header .header__nav .nav__carro {
-    margin: 0px 0px 10px 30px;
+    margin: 5px 0px 10px 30px;
   }
   /* Main */
   #productos .allproducto .allproducto__producto {
@@ -1074,7 +1069,7 @@ footer .footer__texto h4 {
     align-items: center;
   }
   header .header__nav .nav__carro {
-    margin: 0px 0px 10px 30px;
+    margin: 5px 0px 10px 30px;
   }
   /* Main */
   #productos .allproducto .allproducto__producto {
@@ -1155,7 +1150,7 @@ footer .footer__texto h4 {
     align-items: center;
   }
   header .header__nav .nav__carro {
-    margin: 0px 0px 10px 30px;
+    margin: 5px 0px 10px 30px;
   }
   /* Main */
   #productos .allproducto {
@@ -1239,7 +1234,7 @@ footer .footer__texto h4 {
     align-items: center;
   }
   header .header__nav .nav__carro {
-    margin: 0px 0px 10px 30px;
+    margin: 5px 0px 10px 30px;
   }
   /* Main */
   #productos .allproducto .allproducto__producto .producto__foto {
@@ -1283,7 +1278,7 @@ footer .footer__texto h4 {
     width: 400px;
   }
   #contacto .allcontacto .formulario #textarea {
-    height: 250px;
+    height: 260px;
   }
   #contacto .carousel {
     width: 400px;
@@ -1351,7 +1346,7 @@ footer .footer__texto h4 {
     width: 400px;
   }
   #contacto .allcontacto .formulario #textarea {
-    height: 250px;
+    height: 260px;
   }
   #contacto .carousel {
     width: 400px;
@@ -1419,7 +1414,7 @@ footer .footer__texto h4 {
     width: 450px;
   }
   #contacto .allcontacto .formulario #textarea {
-    height: 300px;
+    height: 310px;
   }
   #contacto .carousel {
     width: 450px;

@@ -32,7 +32,6 @@
         .sucursales__mapa {
           height: 250px;
           width: 500px;
-          object-fit: fill;
           box-shadow: 15px 15px 15px map-get($colores, color-3);
         }
       }
