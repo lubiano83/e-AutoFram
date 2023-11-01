@@ -1,0 +1,41 @@
+/* Titulo */
+
+main {
+    background-image: url(../img/fondo-autofram\ \(1\).png);
+    background-color: map-get($colores, color-4);
+    color: map-get($colores, color-2);
+
+    .main__titulo {
+        padding: 30px 0px 30px 0px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        .container-fluid {
+            background-image: url(../img/fondo-autofram\ \(1\).png);
+            margin: -10px -5px -10px 0px;
+            background-color: map-get($colores, color-4);
+
+            .form-control {
+                background-color: map-get($colores, color-2);
+                color: map-get($colores, color-3);
+            }
+
+            button {
+                background-color: map-get($colores, color-6);
+                color: map-get($colores, color-2);
+                border: 1px solid map-get($colores, color-2);
+                box-shadow: 15px 15px 15px map-get($colores, color-3);
+
+                &:hover {
+                    background-color: map-get($colores, color-2);
+                    color: map-get($colores, color-6);
+                    border: 1px solid map-get($colores, color-6);
+
+                }
+            }
+        }
+    }
+}

@@ -22,59 +22,10 @@ body {
   grid-template-rows: repeat(6, auto) 275px;
   grid-template-columns: auto 1200px auto;
   grid-template-areas: "grid-2 grid-1 grid-8" "grid-2 grid-3 grid-8" "grid-2 grid-4 grid-8" "grid-2 grid-5 grid-8" "grid-2 grid-6 grid-8" "grid-2 grid-7 grid-8" "grid-2 grid-9 grid-8";
-  /* Aside */
-  /* Main */
 }
 body a {
   text-decoration: none;
   color: #FFF7F0;
-}
-body aside {
-  background-image: url(../img/fondo-autofram\ \(1\).png);
-  background-color: #FFF7F0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-body .aside-1 {
-  border-right: 1px solid black;
-}
-body .aside-2 {
-  border-left: 1px solid black;
-}
-body main {
-  background-image: url(../img/fondo-autofram\ \(1\).png);
-  background-color: #b5876d;
-  color: #FFF7F0;
-}
-body main .main__titulo {
-  padding: 30px 0px 30px 0px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-body main .main__titulo .container-fluid {
-  background-image: url(../img/fondo-autofram\ \(1\).png);
-  margin: -10px -5px -10px 0px;
-  background-color: #b5876d;
-}
-body main .main__titulo .container-fluid .form-control {
-  background-color: #FFF7F0;
-  color: #402e32;
-}
-body main .main__titulo .container-fluid button {
-  background-color: #528AFF;
-  color: #FFF7F0;
-  border: 1px solid #FFF7F0;
-  box-shadow: 15px 15px 15px #402e32;
-}
-body main .main__titulo .container-fluid button:hover {
-  background-color: #FFF7F0;
-  color: #528AFF;
-  border: 1px solid #528AFF;
 }
 
 /* Bucles For */
@@ -190,9 +141,10 @@ header .header__logo:hover {
 header .header__nav {
   display: flex;
   flex-flow: row wrap;
+  margin: 0px 0px 15px 0px;
 }
 header .header__nav .nav__carro {
-  margin: 0px 30px 0px 0px;
+  margin: 0px 0px 5px 0px;
 }
 header .header__nav .nav__carro:hover {
   scale: 1.2;
@@ -222,13 +174,67 @@ header .header__nav .navbar .container-fluid nav ul li {
 header .header__nav .navbar .container-fluid li {
   margin: 5px 0px 5px 0px;
 }
-header .carousel {
-  width: 100%;
-  height: 500px;
+header .carousel-inner {
+  width: 500px;
+  height: 300px;
 }
-header .carousel .carousel__foto {
-  width: 100%;
-  height: 500px;
+header .carousel-inner .carousel__foto {
+  width: 500px;
+  height: 300px;
+  object-fit: fill;
+}
+
+/* Aside */
+aside {
+  background-image: url(../img/fondo-autofram\ \(1\).png);
+  background-color: #FFF7F0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside-1 {
+  border-right: 1px solid black;
+}
+
+.aside-2 {
+  border-left: 1px solid black;
+}
+
+/* Titulo */
+main {
+  background-image: url(../img/fondo-autofram\ \(1\).png);
+  background-color: #b5876d;
+  color: #FFF7F0;
+}
+main .main__titulo {
+  padding: 30px 0px 30px 0px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+main .main__titulo .container-fluid {
+  background-image: url(../img/fondo-autofram\ \(1\).png);
+  margin: -10px -5px -10px 0px;
+  background-color: #b5876d;
+}
+main .main__titulo .container-fluid .form-control {
+  background-color: #FFF7F0;
+  color: #402e32;
+}
+main .main__titulo .container-fluid button {
+  background-color: #528AFF;
+  color: #FFF7F0;
+  border: 1px solid #FFF7F0;
+  box-shadow: 15px 15px 15px #402e32;
+}
+main .main__titulo .container-fluid button:hover {
+  background-color: #FFF7F0;
+  color: #528AFF;
+  border: 1px solid #528AFF;
 }
 
 /* Productos */
@@ -236,9 +242,10 @@ header .carousel .carousel__foto {
   background-color: #b5876d;
 }
 #productos .allproducto {
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 #productos .allproducto .allproducto__producto {
@@ -259,9 +266,10 @@ header .carousel .carousel__foto {
   background-color: #402e32;
 }
 #nosotros .nosotros {
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   margin-bottom: 15px;
 }
@@ -296,9 +304,10 @@ header .carousel .carousel__foto {
   background-color: #b5876d;
 }
 #sucursales .allsucursales {
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   margin-bottom: 30px;
 }
@@ -330,9 +339,10 @@ header .carousel .carousel__foto {
   background-color: #402e32;
 }
 #servicios .servicios {
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   margin-bottom: 15px;
 }
@@ -360,6 +370,7 @@ header .carousel .carousel__foto {
 }
 #servicios .servicios .servicios__texto .texto__2 {
   text-align: left;
+  margin-top: 20px;
 }
 #servicios .servicios .servicios__texto .texto__2 ul li h5 {
   line-height: 0.5;
@@ -379,10 +390,11 @@ header .carousel .carousel__foto {
   scale: 1.2;
 }
 #contacto .allcontacto {
+  width: 100%;
   background-image: url(../img/fondo-autofram\ \(1\).png);
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 #contacto .allcontacto .formulario {
@@ -393,10 +405,10 @@ header .carousel .carousel__foto {
   font-size: 16px;
   cursor: pointer;
   display: block;
-  margin: 0px 15px 30px 15px;
+  margin: -8px 15px 40px 15px;
 }
 #contacto .allcontacto .formulario #textarea {
-  height: 350px;
+  height: 363px;
 }
 #contacto .allcontacto .formulario #textarea,
 #contacto .allcontacto .formulario #mail {
@@ -412,7 +424,7 @@ header .carousel .carousel__foto {
 #contacto .carousel {
   width: 500px;
   height: 500px;
-  margin: 0px 15px 30px 15px;
+  margin: -10px 15px 20px 15px;
   box-shadow: 15px 15px 15px #402e32;
 }
 #contacto .carousel .carousel__foto {

@@ -4,9 +4,10 @@
     background-color: map-get($colores, color-3);
   
     .servicios {
+      width: 100%;
       display: flex;
       flex-flow: row wrap;
-      justify-content: center;
+      justify-content: space-evenly;
       align-items: center;
       margin-bottom: 15px;
   
@@ -37,6 +38,7 @@
   
         .texto__2 {
           text-align: left;
+          margin-top: 20px;
   
           ul li h5 {
             line-height: 0.5;
