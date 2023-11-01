@@ -1,0 +1,41 @@
+/* HTML Productos */
+
+/* Box */
+.linea {
+    width: 100%;
+    background-image: url(../img/fondo-autofram\ \(1\).png);
+    background-color: map-get($colores, color-4);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .linea__box {
+      width: 205px;
+      margin: 0px 15px 45px 15px;
+      border: 2px solid map-get($colores, color-5);
+      box-shadow: 15px 15px 15px map-get($colores, color-3);
+      background-color: map-get($colores, color-3);
+
+      &:hover {
+        scale: 1.05;
+      }
+
+      .box__item {
+        height: 200px;
+        width: 200px;
+        background-color: map-get($colores, color-2);
+        object-fit: fill;
+      }
+
+      .box__texto {
+        margin: 20px 10px 0px 10px;
+        line-height: 1;
+        text-align: left;
+
+        .texto__agregar {
+          margin: 20px auto;
+        }
+      }
+    }
+  }

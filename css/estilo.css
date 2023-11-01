@@ -1,3 +1,4 @@
+/* sass --watch scss/estilo.scss:css/estilo.css */
 /* Variables */
 /* Colores */
 /* Sizes */
@@ -18,7 +19,7 @@ body {
   font-family: "Poppins", sans-serif;
   text-align: center;
   display: grid;
-  grid-template-rows: 100px repeat(5, auto) 275px;
+  grid-template-rows: repeat(6, auto) 275px;
   grid-template-columns: auto 1200px auto;
   grid-template-areas: "grid-2 grid-1 grid-8" "grid-2 grid-3 grid-8" "grid-2 grid-4 grid-8" "grid-2 grid-5 grid-8" "grid-2 grid-6 grid-8" "grid-2 grid-7 grid-8" "grid-2 grid-9 grid-8";
   /* Aside */
@@ -180,7 +181,7 @@ header {
 }
 header .header__logo {
   font-weight: bold;
-  margin-left: 30px;
+  margin: 10px 0px 10px 0px;
   text-shadow: 15px 15px 15px #402e32;
 }
 header .header__logo:hover {
@@ -221,9 +222,16 @@ header .header__nav .navbar .container-fluid nav ul li {
 header .header__nav .navbar .container-fluid li {
   margin: 5px 0px 5px 0px;
 }
+header .carousel {
+  width: 100%;
+  height: 500px;
+}
+header .carousel .carousel__foto {
+  width: 100%;
+  height: 500px;
+}
 
-/* Index */
-/* Main-0 */
+/* Productos */
 #productos {
   background-color: #b5876d;
 }
@@ -246,7 +254,7 @@ header .header__nav .navbar .container-fluid li {
   scale: 1.1;
 }
 
-/* Main-1 */
+/* Nosotros */
 #nosotros {
   background-color: #402e32;
 }
@@ -283,7 +291,7 @@ header .header__nav .navbar .container-fluid li {
   margin-top: 30px;
 }
 
-/* Main-2 */
+/* Sucursales */
 #sucursales {
   background-color: #b5876d;
 }
@@ -317,7 +325,7 @@ header .header__nav .navbar .container-fluid li {
   box-shadow: 15px 15px 15px #402e32;
 }
 
-/* Main-3 */
+/* Servicios */
 #servicios {
   background-color: #402e32;
 }
@@ -357,7 +365,7 @@ header .header__nav .navbar .container-fluid li {
   line-height: 0.5;
 }
 
-/* Main-4 */
+/* Contacto */
 #contacto {
   background-color: #b5876d;
   padding-bottom: 5px;

@@ -1,0 +1,64 @@
+/* Contacto */
+
+#contacto {
+    background-color: map-get($colores, color-4);
+    padding-bottom: 5px;
+  
+    .titulo__link {
+      height: 50px;
+      width: 50px;
+      box-shadow: 15px 15px 15px map-get($colores, color-3);
+  
+      &:hover {
+        scale: 1.2;
+      }
+    }
+  
+    .allcontacto {
+      background-image: url(../img/fondo-autofram\ \(1\).png);
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+  
+      .formulario {
+        text-align: center;
+        color: map-get($colores, color-2);
+        border: none;
+        border-radius: 5px;
+        font-size: map-get($sizes, size-h5);
+        cursor: pointer;
+        display: block;
+        margin: 0px 15px 30px 15px;
+  
+        #textarea {
+          height: 350px;
+        }
+  
+        #textarea,
+        #mail {
+          text-align: center;
+          display: block;
+          width: 500px;
+          padding: 10px;
+          border-radius: 5px;
+          font-size: map-get($sizes, size-h5);
+          margin-bottom: 10px;
+          color: map-get($colores, color-3);
+        }
+      }
+    }
+  
+    .carousel {
+      width: 500px;
+      height: 500px;
+      margin: 0px 15px 30px 15px;
+      box-shadow: 15px 15px 15px map-get($colores, color-3);
+  
+      .carousel__foto {
+        height: 500px;
+        width: 500px;
+        object-fit: fill;
+      }
+    }
+  }

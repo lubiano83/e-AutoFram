@@ -1,0 +1,39 @@
+/* Sucursales */
+
+#sucursales {
+    background-color: map-get($colores, color-4);
+  
+    .allsucursales {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px;
+  
+      .allsucursales__sucursales {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 15px 0px 15px;
+  
+        .sucursales__foto {
+          height: 250px;
+          width: 500px;
+          object-fit: fill;
+          box-shadow: 15px 15px 15px map-get($colores, color-3);
+        }
+  
+        .sucursales__texto {
+          margin-top: 15px;
+        }
+  
+        .sucursales__mapa {
+          height: 250px;
+          width: 500px;
+          object-fit: fill;
+          box-shadow: 15px 15px 15px map-get($colores, color-3);
+        }
+      }
+    }
+  }
