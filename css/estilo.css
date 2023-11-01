@@ -1,0 +1,1369 @@
+/* Variables */
+/* Colores */
+/* Sizes */
+/* Negrita */
+/* Maps */
+/* Colores */
+/* Sizes */
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 100px repeat(5, auto) 275px;
+  grid-template-columns: auto 1200px auto;
+  grid-template-areas: "grid-2 grid-1 grid-8" "grid-2 grid-3 grid-8" "grid-2 grid-4 grid-8" "grid-2 grid-5 grid-8" "grid-2 grid-6 grid-8" "grid-2 grid-7 grid-8" "grid-2 grid-9 grid-8";
+  /* Aside */
+  /* Main */
+}
+body a {
+  text-decoration: none;
+  color: #FFF7F0;
+}
+body aside {
+  background-image: url(../img/fondo-autofram\ \(1\).png);
+  background-color: #FFF7F0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+body .aside-1 {
+  border-right: 1px solid black;
+}
+body .aside-2 {
+  border-left: 1px solid black;
+}
+body main {
+  background-image: url(../img/fondo-autofram\ \(1\).png);
+  background-color: #b5876d;
+  color: #FFF7F0;
+}
+body main .main__titulo {
+  padding: 30px 0px 30px 0px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+body main .main__titulo .container-fluid {
+  background-image: url(../img/fondo-autofram\ \(1\).png);
+  margin: -10px -5px -10px 0px;
+  background-color: #b5876d;
+}
+body main .main__titulo .container-fluid .form-control {
+  background-color: #FFF7F0;
+  color: #402e32;
+}
+body main .main__titulo .container-fluid button {
+  background-color: #528AFF;
+  color: #FFF7F0;
+  border: 1px solid #FFF7F0;
+  box-shadow: 15px 15px 15px #402e32;
+}
+body main .main__titulo .container-fluid button:hover {
+  background-color: #FFF7F0;
+  color: #528AFF;
+  border: 1px solid #528AFF;
+}
+
+/* Bucles For */
+.grid-1 {
+  grid-area: grid-1;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-2 {
+  grid-area: grid-2;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-3 {
+  grid-area: grid-3;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-4 {
+  grid-area: grid-4;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-5 {
+  grid-area: grid-5;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-6 {
+  grid-area: grid-6;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-7 {
+  grid-area: grid-7;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-8 {
+  grid-area: grid-8;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-9 {
+  grid-area: grid-9;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+/* Header */
+header {
+  background-image: url(../img/fondo-autofram\ \(1\).png);
+  background-color: #ff6f00;
+  color: #402e32;
+  border-bottom: 1px solid black;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+header .header__logo {
+  font-weight: bold;
+  margin-left: 30px;
+  text-shadow: 15px 15px 15px #402e32;
+}
+header .header__logo:hover {
+  color: #402e32;
+}
+header .header__nav {
+  display: flex;
+  flex-flow: row wrap;
+}
+header .header__nav .nav__carro {
+  margin: 0px 30px 0px 0px;
+}
+header .header__nav .nav__carro:hover {
+  scale: 1.2;
+}
+header .header__nav .navbar {
+  padding: 0px;
+}
+header .header__nav .navbar .container-fluid {
+  background-image: url(../img/fondo-autofram\ \(1\).png);
+  background-color: #ff6f00;
+}
+header .header__nav .navbar .container-fluid .navbar-toggler {
+  background-color: #FFF7F0;
+}
+header .header__nav .navbar .container-fluid .nav-link {
+  color: #FFF7F0;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+header .header__nav .navbar .container-fluid .nav-link:hover {
+  color: black;
+}
+header .header__nav .navbar .container-fluid nav ul li {
+  list-style: none;
+}
+header .header__nav .navbar .container-fluid li {
+  margin: 5px 0px 5px 0px;
+}
+
+/* Index */
+/* Main-0 */
+#productos {
+  background-color: #b5876d;
+}
+#productos .allproducto {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+#productos .allproducto .allproducto__producto {
+  margin: 0px 20px 10px 20px;
+}
+#productos .allproducto .allproducto__producto .producto__foto {
+  height: 200px;
+  width: 225px;
+  object-fit: fill;
+  box-shadow: 15px 15px 15px #402e32;
+}
+#productos .allproducto .allproducto__producto .producto__foto:hover {
+  scale: 1.1;
+}
+
+/* Main-1 */
+#nosotros {
+  background-color: #402e32;
+}
+#nosotros .nosotros {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+#nosotros .nosotros .carousel {
+  margin: 0px 15px 30px 15px;
+  width: 500px;
+  height: 500px;
+  box-shadow: 15px 15px 15px black;
+}
+#nosotros .nosotros .carousel .carousel__foto {
+  height: 500px;
+  width: 500px;
+  object-fit: fill;
+}
+#nosotros .nosotros .nosotros__texto {
+  width: 500px;
+  height: 500px;
+  overflow-y: scroll;
+  text-align: justify;
+  margin: 0px 15px 30px 15px;
+}
+#nosotros .nosotros .nosotros__texto .texto__1,
+#nosotros .nosotros .nosotros__texto .texto__2 {
+  margin-right: 30px;
+}
+#nosotros .nosotros .nosotros__texto .texto__2 {
+  margin-top: 30px;
+}
+
+/* Main-2 */
+#sucursales {
+  background-color: #b5876d;
+}
+#sucursales .allsucursales {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+#sucursales .allsucursales .allsucursales__sucursales {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 15px 0px 15px;
+}
+#sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
+  height: 250px;
+  width: 500px;
+  object-fit: fill;
+  box-shadow: 15px 15px 15px #402e32;
+}
+#sucursales .allsucursales .allsucursales__sucursales .sucursales__texto {
+  margin-top: 15px;
+}
+#sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+  height: 250px;
+  width: 500px;
+  object-fit: fill;
+  box-shadow: 15px 15px 15px #402e32;
+}
+
+/* Main-3 */
+#servicios {
+  background-color: #402e32;
+}
+#servicios .servicios {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+#servicios .servicios .carousel {
+  height: 500px;
+  width: 500px;
+  margin: 0px 15px 30px 15px;
+  box-shadow: 15px 15px 15px black;
+}
+#servicios .servicios .carousel .carousel__foto {
+  height: 500px;
+  width: 500px;
+  object-fit: fill;
+}
+#servicios .servicios .servicios__texto {
+  width: 500px;
+  height: 500px;
+  overflow-y: scroll;
+  text-align: justify;
+  margin: 0px 15px 30px 15px;
+}
+#servicios .servicios .servicios__texto .texto__1,
+#servicios .servicios .servicios__texto .texto__2 {
+  margin-right: 30px;
+}
+#servicios .servicios .servicios__texto .texto__2 {
+  text-align: left;
+}
+#servicios .servicios .servicios__texto .texto__2 ul li h5 {
+  line-height: 0.5;
+}
+
+/* Main-4 */
+#contacto {
+  background-color: #b5876d;
+  padding-bottom: 5px;
+}
+#contacto .titulo__link {
+  height: 50px;
+  width: 50px;
+  box-shadow: 15px 15px 15px #402e32;
+}
+#contacto .titulo__link:hover {
+  scale: 1.2;
+}
+#contacto .allcontacto {
+  background-image: url(../img/fondo-autofram\ \(1\).png);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+#contacto .allcontacto .formulario {
+  text-align: center;
+  color: #FFF7F0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin: 0px 15px 30px 15px;
+}
+#contacto .allcontacto .formulario #textarea {
+  height: 350px;
+}
+#contacto .allcontacto .formulario #textarea,
+#contacto .allcontacto .formulario #mail {
+  text-align: center;
+  display: block;
+  width: 500px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #402e32;
+}
+#contacto .carousel {
+  width: 500px;
+  height: 500px;
+  margin: 0px 15px 30px 15px;
+  box-shadow: 15px 15px 15px #402e32;
+}
+#contacto .carousel .carousel__foto {
+  height: 500px;
+  width: 500px;
+  object-fit: fill;
+}
+
+/* Footer */
+footer {
+  background-image: url(../img/fondo-autofram\ \(1\).png);
+  background-color: #ff6f00;
+  color: #FFF7F0;
+  border-top: 1px solid black;
+}
+footer .footer__logo {
+  margin: 0px 0px 10px 0px;
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow: 15px 15px 15px #402e32;
+}
+footer .footer__logo:hover {
+  color: #402e32;
+}
+footer .footer__texto {
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+footer .footer__texto h4 {
+  line-height: 1.5;
+}
+
+/* HTML Productos */
+/* Box */
+.linea {
+  width: 100%;
+  background-image: url(../img/fondo-autofram\ \(1\).png);
+  background-color: #b5876d;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.linea .linea__box {
+  width: 205px;
+  margin: 0px 15px 45px 15px;
+  border: 2px solid black;
+  box-shadow: 15px 15px 15px #402e32;
+  background-color: #402e32;
+}
+.linea .linea__box:hover {
+  scale: 1.05;
+}
+.linea .linea__box .box__item {
+  height: 200px;
+  width: 200px;
+  background-color: #FFF7F0;
+  object-fit: fill;
+}
+.linea .linea__box .box__texto {
+  margin: 20px 10px 0px 10px;
+  line-height: 1;
+  text-align: left;
+}
+.linea .linea__box .box__texto .texto__agregar {
+  margin: 20px auto;
+}
+
+/* Mixins */
+/* Botones */
+.submit, .reset {
+  font-size: 16px;
+  background-color: #402e32;
+  border: 1px solid #FFF7F0;
+  color: #FFF7F0;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 15px 15px 15px #402e32;
+}
+.submit:hover, .reset:hover {
+  background-color: #FFF7F0;
+  color: #402e32;
+  border: 1px solid #FFF7F0;
+}
+
+.texto__agregar {
+  font-size: 16px;
+  background-color: #ff6f00;
+  border: 1px solid #FFF7F0;
+  color: #FFF7F0;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texto__agregar:hover {
+  background-color: #FFF7F0;
+  color: #ff6f00;
+  border: 1px solid #ff6f00;
+}
+
+.titulo__catalogo {
+  font-size: 16px;
+  background-color: #528AFF;
+  border: 1px solid #FFF7F0;
+  color: #FFF7F0;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 15px 15px 15px #402e32;
+}
+.titulo__catalogo:hover {
+  background-color: #FFF7F0;
+  color: #528AFF;
+  border: 1px solid #528AFF;
+}
+
+/* Mobile */
+/* Mixins */
+/* 360px & 399px */
+@media screen and (min-width: 360px) and (max-width: 399px) {
+  body {
+    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-columns: 100%;
+    grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
+  }
+  /* Header */
+  header .navbar {
+    margin: 0px 0px 30px 0px;
+  }
+  header .header__logo {
+    margin: 30px 0px 15px 0px;
+  }
+  header .header__nav {
+    justify-content: center;
+    align-items: center;
+  }
+  header .header__nav .nav__carro {
+    margin: 0px 0px 30px 30px;
+  }
+  /* Main */
+  #nosotros .nosotros .carousel {
+    width: 300px;
+    height: 300px;
+    margin: 0px 0px 30px 0px;
+  }
+  #nosotros .nosotros .carousel .carousel__foto {
+    height: 300px;
+    width: 300px;
+  }
+  #nosotros .nosotros .nosotros__texto {
+    width: 300px;
+    height: 300px;
+  }
+  #productos .allproducto .allproducto__producto .producto__foto {
+    height: 125px;
+    width: 125px;
+  }
+  #servicios .servicios .carousel {
+    width: 300px;
+    height: 300px;
+  }
+  #servicios .servicios .carousel .carousel__foto {
+    width: 300px;
+    height: 300px;
+  }
+  #servicios .servicios .servicios__texto {
+    width: 300px;
+    height: 300px;
+  }
+  #servicios .servicios .servicios__texto .texto__2 ul li h5 {
+    line-height: 1;
+  }
+  #sucursales .allsucursales {
+    margin: 0px 0px 0px 0px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales {
+    margin: 0px 0px 30px 0px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
+    width: 300px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+    width: 300px;
+  }
+  #contacto .allcontacto .formulario #textarea {
+    height: 150px;
+  }
+  #contacto .allcontacto .formulario #textarea, #contacto .allcontacto .formulario #mail {
+    width: 300px;
+  }
+  #contacto .carousel {
+    margin: 0px 0px 30px 0px;
+    width: 300px;
+    height: 300px;
+  }
+  #contacto .carousel .carousel__foto {
+    height: 300px;
+    width: 300px;
+  }
+  #contacto .main__titulo {
+    display: inline-block;
+  }
+}
+/* 400px & 459px */
+@media screen and (min-width: 400px) and (max-width: 459px) {
+  body {
+    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-columns: 100%;
+    grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
+  }
+  /* Header */
+  header .navbar {
+    margin: 0px 0px 30px 0px;
+  }
+  header .header__logo {
+    margin: 30px 0px 15px 0px;
+  }
+  header .header__nav {
+    justify-content: center;
+    align-items: center;
+  }
+  header .header__nav .nav__carro {
+    margin: 0px 0px 30px 30px;
+  }
+  /* Main */
+  #nosotros .nosotros .carousel {
+    width: 350px;
+    height: 350px;
+    margin: 0px 0px 30px 0px;
+  }
+  #nosotros .nosotros .carousel .carousel__foto {
+    height: 350px;
+    width: 350px;
+  }
+  #nosotros .nosotros .nosotros__texto {
+    width: 350px;
+    height: 350px;
+  }
+  #productos .allproducto .allproducto__producto .producto__foto {
+    height: 150px;
+    width: 150px;
+  }
+  #servicios .servicios .carousel {
+    width: 350px;
+    height: 350px;
+  }
+  #servicios .servicios .carousel .carousel__foto {
+    width: 350px;
+    height: 350px;
+  }
+  #servicios .servicios .servicios__texto {
+    width: 350px;
+    height: 350px;
+  }
+  #servicios .servicios .servicios__texto .texto__2 ul li h5 {
+    line-height: 1;
+  }
+  #sucursales .allsucursales {
+    margin: 0px 0px 0px 0px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales {
+    margin: 0px 0px 30px 0px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
+    width: 350px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+    width: 350px;
+  }
+  #contacto .allcontacto .formulario #textarea {
+    height: 200px;
+  }
+  #contacto .allcontacto .formulario #textarea, #contacto .allcontacto .formulario #mail {
+    width: 350px;
+  }
+  #contacto .carousel {
+    margin: 0px 0px 30px 0px;
+    width: 350px;
+    height: 350px;
+  }
+  #contacto .carousel .carousel__foto {
+    height: 350px;
+    width: 350px;
+  }
+}
+/* 460px & 509px */
+@media screen and (min-width: 460px) and (max-width: 509px) {
+  body {
+    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-columns: 100%;
+    grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
+  }
+  /* Header */
+  header .navbar {
+    margin: 0px 0px 30px 0px;
+  }
+  header .header__logo {
+    margin: 30px 0px 15px 0px;
+  }
+  header .header__nav {
+    justify-content: center;
+    align-items: center;
+  }
+  header .header__nav .nav__carro {
+    margin: 0px 0px 30px 30px;
+  }
+  /* Main */
+  #nosotros .nosotros .carousel {
+    width: 400px;
+    height: 400px;
+    margin: 0px 0px 30px 0px;
+  }
+  #nosotros .nosotros .carousel .carousel__foto {
+    height: 400px;
+    width: 400px;
+  }
+  #nosotros .nosotros .nosotros__texto {
+    width: 400px;
+    height: 400px;
+  }
+  #productos .allproducto .allproducto__producto .producto__foto {
+    height: 175px;
+    width: 175px;
+  }
+  #servicios .servicios .carousel {
+    width: 400px;
+    height: 400px;
+  }
+  #servicios .servicios .carousel .carousel__foto {
+    width: 400px;
+    height: 400px;
+  }
+  #servicios .servicios .servicios__texto {
+    width: 400px;
+    height: 400px;
+  }
+  #sucursales .allsucursales {
+    margin: 0px 0px 0px 0px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales {
+    margin: 0px 0px 30px 0px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
+    width: 400px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+    width: 400px;
+  }
+  #contacto .allcontacto .formulario #textarea {
+    height: 250px;
+  }
+  #contacto .allcontacto .formulario #textarea, #contacto .allcontacto .formulario #mail {
+    width: 400px;
+  }
+  #contacto .carousel {
+    margin: 0px 0px 30px 0px;
+    width: 400px;
+    height: 400px;
+  }
+  #contacto .carousel .carousel__foto {
+    height: 400px;
+    width: 400px;
+  }
+}
+/* 510px & 560px */
+@media screen and (min-width: 510px) and (max-width: 560px) {
+  body {
+    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-columns: 100%;
+    grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
+  }
+  /* Header */
+  header .navbar {
+    margin: 0px 0px 30px 0px;
+  }
+  header .header__logo {
+    margin: 30px 0px 15px 0px;
+  }
+  header .header__nav {
+    justify-content: center;
+    align-items: center;
+  }
+  header .header__nav .nav__carro {
+    margin: 0px 0px 30px 30px;
+  }
+  /* Main */
+  #nosotros .nosotros .carousel {
+    width: 450px;
+    height: 450px;
+    margin: 0px 0px 30px 0px;
+  }
+  #nosotros .nosotros .carousel .carousel__foto {
+    height: 450px;
+    width: 450px;
+  }
+  #nosotros .nosotros .nosotros__texto {
+    width: 450px;
+    height: 450px;
+  }
+  #productos .allproducto .allproducto__producto .producto__foto {
+    height: 200px;
+    width: 200px;
+  }
+  #servicios .servicios .carousel {
+    width: 450px;
+    height: 450px;
+  }
+  #servicios .servicios .carousel .carousel__foto {
+    width: 450px;
+    height: 450px;
+  }
+  #servicios .servicios .servicios__texto {
+    width: 450px;
+    height: 450px;
+  }
+  #sucursales .allsucursales {
+    margin: 0px 0px 0px 0px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales {
+    margin: 0px 0px 30px 0px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
+    width: 450px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+    width: 450px;
+  }
+  #contacto .allcontacto .formulario #textarea {
+    height: 300px;
+  }
+  #contacto .allcontacto .formulario #textarea, #contacto .allcontacto .formulario #mail {
+    width: 450px;
+  }
+  #contacto .carousel {
+    margin: 0px 0px 30px 0px;
+    width: 450px;
+    height: 450px;
+  }
+  #contacto .carousel .carousel__foto {
+    width: 450px;
+    height: 450px;
+  }
+}
+/* 561px & 569px */
+@media screen and (min-width: 561px) and (max-width: 569px) {
+  body {
+    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-columns: 100%;
+    grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
+  }
+  /* Header */
+  header .navbar {
+    margin: 0px 0px 30px 0px;
+  }
+  header .header__logo {
+    margin: 30px 0px 15px 0px;
+  }
+  header .header__nav {
+    justify-content: center;
+    align-items: center;
+  }
+  header .header__nav .nav__carro {
+    margin: 0px 0px 30px 30px;
+  }
+  /* Main */
+  #nosotros .nosotros .carousel {
+    width: 450px;
+    height: 450px;
+    margin: 0px 0px 30px 0px;
+  }
+  #nosotros .nosotros .carousel .carousel__foto {
+    height: 450px;
+    width: 450px;
+  }
+  #nosotros .nosotros .nosotros__texto {
+    width: 450px;
+    height: 450px;
+  }
+  #productos .allproducto .allproducto__producto .producto__foto {
+    height: 200px;
+    width: 200px;
+  }
+  #servicios .servicios .carousel {
+    width: 450px;
+    height: 450px;
+  }
+  #servicios .servicios .carousel .carousel__foto {
+    width: 450px;
+    height: 450px;
+  }
+  #servicios .servicios .servicios__texto {
+    width: 450px;
+    height: 450px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
+    width: 450px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+    width: 450px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales {
+    margin-bottom: 30px;
+  }
+  #sucursales .allsucursales {
+    margin-bottom: 0px;
+  }
+  #contacto .allcontacto .formulario #textarea,
+  #contacto .allcontacto .formulario #mail {
+    width: 450px;
+  }
+  #contacto .allcontacto .formulario #textarea {
+    height: 300px;
+  }
+  #contacto .carousel {
+    margin: 0px 0px 30px 0px;
+    width: 450px;
+    height: 450px;
+  }
+  #contacto .carousel .carousel__foto {
+    width: 450px;
+    height: 450px;
+  }
+}
+/* 570px & 659px */
+@media screen and (min-width: 570px) and (max-width: 659px) {
+  body {
+    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-columns: 100%;
+    grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
+  }
+  /* Header */
+  header .navbar {
+    margin: 0px 0px 30px 0px;
+  }
+  header .header__logo {
+    margin: 30px 0px 15px 0px;
+  }
+  header .header__nav {
+    justify-content: center;
+    align-items: center;
+  }
+  header .header__nav .nav__carro {
+    margin: 0px 0px 30px 30px;
+  }
+  /* Main */
+  #sucursales .allsucursales {
+    margin-bottom: 0px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales {
+    margin-bottom: 30px;
+  }
+  #contacto .main-4__all-contacto .formulario {
+    margin: 0px 0px 30px 0px;
+  }
+  #contacto .carousel {
+    margin: 0px 0px 30px 0px;
+  }
+}
+/* 660px & 869px */
+@media screen and (min-width: 660px) and (max-width: 869px) {
+  body {
+    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-columns: 100%;
+    grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
+  }
+  /* Header */
+  header .navbar {
+    margin: 0px 0px 30px 0px;
+  }
+  header .header__logo {
+    margin: 30px 0px 15px 0px;
+  }
+  header .header__nav {
+    justify-content: center;
+    align-items: center;
+  }
+  header .header__nav .nav__carro {
+    margin: 0px 0px 30px 30px;
+  }
+  /* Main */
+  #productos .allproducto .allproducto__producto {
+    display: inline-block;
+  }
+  #productos .allproducto .allproducto__producto .producto__foto {
+    height: 200px;
+    width: 250px;
+  }
+  #nosotros .nosotros .carousel {
+    width: 600px;
+  }
+  #nosotros .nosotros .carousel .carousel__foto {
+    width: 600px;
+  }
+  #nosotros .nosotros .nosotros__texto {
+    width: 600px;
+    height: 400px;
+  }
+  #servicios .servicios .carousel {
+    width: 600px;
+  }
+  #servicios .servicios .carousel .carousel__foto {
+    width: 600px;
+  }
+  #servicios .servicios .servicios__texto {
+    width: 600px;
+    height: 400px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
+    width: 600px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+    width: 600px;
+  }
+  #sucursales .allsucursales {
+    margin-bottom: 0px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales {
+    margin-bottom: 30px;
+  }
+  #contacto .allcontacto .formulario #textarea,
+  #contacto .allcontacto .formulario #mail {
+    width: 600px;
+  }
+  #contacto .allcontacto .formulario #textarea {
+    height: 250px;
+  }
+  #contacto .carousel {
+    margin: 0px 0px 30px 0px;
+    width: 600px;
+  }
+  #contacto .carousel .carousel__foto {
+    width: 600px;
+  }
+}
+/* 870px & 879px */
+@media screen and (min-width: 870px) and (max-width: 879px) {
+  body {
+    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-columns: 100%;
+    grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
+  }
+  /* Header */
+  header .navbar {
+    margin: 0px 0px 30px 0px;
+  }
+  header .header__logo {
+    margin: 30px 0px 15px 0px;
+  }
+  header .header__nav {
+    justify-content: center;
+    align-items: center;
+  }
+  header .header__nav .nav__carro {
+    margin: 0px 0px 30px 30px;
+  }
+  /* Main */
+  #productos .allproducto {
+    width: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  #productos .allproducto .allproducto__producto .producto__foto {
+    height: 200px;
+    width: 250px;
+  }
+  #nosotros .nosotros .carousel {
+    width: 600px;
+  }
+  #nosotros .nosotros .carousel .carousel__foto {
+    width: 600px;
+  }
+  #nosotros .nosotros .nosotros__texto {
+    width: 600px;
+    height: 400px;
+  }
+  #servicios .servicios .carousel {
+    width: 600px;
+  }
+  #servicios .servicios .carousel .carousel__foto {
+    width: 600px;
+  }
+  #servicios .servicios .servicios__texto {
+    width: 600px;
+    height: 400px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
+    width: 600px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+    width: 600px;
+  }
+  #sucursales .allsucursales {
+    margin-bottom: 0px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales {
+    margin-bottom: 30px;
+  }
+  #contacto .allcontacto .formulario #textarea,
+  #contacto .allcontacto .formulario #mail {
+    width: 600px;
+  }
+  #contacto .allcontacto .formulario #textarea {
+    height: 250px;
+  }
+  #contacto .carousel {
+    margin: 0px 0px 30px 0px;
+    width: 600px;
+  }
+  #contacto .carousel .carousel__foto {
+    width: 600px;
+  }
+}
+/* 880px & 991px */
+@media screen and (min-width: 880px) and (max-width: 991px) {
+  body {
+    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-columns: 100%;
+    grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
+  }
+  /* Header */
+  header .navbar {
+    margin: 0px 0px 30px 0px;
+  }
+  header .header__logo {
+    margin: 30px 0px 15px 0px;
+  }
+  header .header__nav {
+    justify-content: center;
+    align-items: center;
+  }
+  header .header__nav .nav__carro {
+    margin: 0px 0px 30px 30px;
+  }
+  /* Main */
+  #productos .allproducto .allproducto__producto .producto__foto {
+    height: 175px;
+    width: 175px;
+  }
+  #nosotros .nosotros .carousel {
+    width: 400px;
+    height: 400px;
+  }
+  #nosotros .nosotros .carousel .carousel__foto {
+    width: 400px;
+    height: 400px;
+  }
+  #nosotros .nosotros .nosotros__texto {
+    width: 400px;
+    height: 400px;
+  }
+  #servicios .servicios .carousel {
+    width: 400px;
+    height: 400px;
+  }
+  #servicios .servicios .carousel .carousel__foto {
+    width: 400px;
+    height: 400px;
+  }
+  #servicios .servicios .servicios__texto {
+    width: 400px;
+    height: 400px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
+    width: 400px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+    width: 400px;
+  }
+  #contacto .allcontacto .formulario #textarea,
+  #contacto .allcontacto .formulario #mail {
+    width: 400px;
+  }
+  #contacto .allcontacto .formulario #textarea {
+    height: 250px;
+  }
+  #contacto .carousel {
+    width: 400px;
+    height: 400px;
+  }
+  #contacto .carousel .carousel__foto {
+    width: 400px;
+    height: 400px;
+  }
+}
+/* 992px & 999px */
+@media screen and (min-width: 992px) and (max-width: 999px) {
+  body {
+    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-columns: 100%;
+    grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
+  }
+  /* Header */
+  header .navbar {
+    margin: 0px 0px 30px 0px;
+  }
+  header .header__logo {
+    margin: 30px 0px 15px 0px;
+  }
+  header .header__nav {
+    justify-content: center;
+    align-items: center;
+  }
+  header .header__nav .nav__carro {
+    margin: 0px 0px 30px 0px;
+  }
+  /* Main */
+  #productos .allproducto .allproducto__producto .producto__foto {
+    height: 175px;
+    width: 175px;
+  }
+  #nosotros .nosotros .carousel {
+    width: 400px;
+    height: 400px;
+  }
+  #nosotros .nosotros .carousel .carousel__foto {
+    width: 400px;
+    height: 400px;
+  }
+  #nosotros .nosotros .nosotros__texto {
+    width: 400px;
+    height: 400px;
+  }
+  #servicios .servicios .carousel {
+    width: 400px;
+    height: 400px;
+  }
+  #servicios .servicios .carousel .carousel__foto {
+    width: 400px;
+    height: 400px;
+  }
+  #servicios .servicios .servicios__texto {
+    width: 400px;
+    height: 400px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
+    width: 400px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+    width: 400px;
+  }
+  #contacto .allcontacto .formulario #textarea,
+  #contacto .allcontacto .formulario #mail {
+    width: 400px;
+  }
+  #contacto .allcontacto .formulario #textarea {
+    height: 250px;
+  }
+  #contacto .carousel {
+    width: 400px;
+    height: 400px;
+  }
+  #contacto .carousel .carousel__foto {
+    width: 400px;
+    height: 400px;
+  }
+}
+/* 1000px & 1090px */
+@media screen and (min-width: 1000px) and (max-width: 1090px) {
+  body {
+    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-columns: 100%;
+    grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
+  }
+  /* Header */
+  header .navbar {
+    margin: 0px 0px 30px 0px;
+  }
+  header .header__logo {
+    margin: 30px 0px 15px 0px;
+  }
+  header .header__nav {
+    justify-content: center;
+    align-items: center;
+  }
+  header .header__nav .nav__carro {
+    margin: 0px 0px 30px 0px;
+  }
+  /* Main */
+  #productos .allproducto .allproducto__producto .producto__foto {
+    height: 175px;
+    width: 175px;
+  }
+  #nosotros .nosotros .carousel {
+    width: 450px;
+    height: 450px;
+  }
+  #nosotros .nosotros .carousel .carousel__foto {
+    width: 450px;
+    height: 450px;
+  }
+  #nosotros .nosotros .nosotros__texto {
+    width: 450px;
+    height: 450px;
+  }
+  #servicios .servicios .carousel {
+    width: 450px;
+    height: 450px;
+  }
+  #servicios .servicios .carousel .carousel__foto {
+    width: 450px;
+    height: 450px;
+  }
+  #servicios .servicios .servicios__texto {
+    width: 450px;
+    height: 450px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
+    width: 450px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+    width: 450px;
+  }
+  #contacto .allcontacto .formulario #textarea,
+  #contacto .allcontacto .formulario #mail {
+    width: 450px;
+  }
+  #contacto .allcontacto .formulario #textarea {
+    height: 300px;
+  }
+  #contacto .carousel {
+    width: 450px;
+    height: 450px;
+  }
+  #contacto .carousel .carousel__foto {
+    width: 450px;
+    height: 450px;
+  }
+}
+/* 1091px & 1200px */
+@media screen and (min-width: 1091px) and (max-width: 1200px) {
+  body {
+    grid-template-rows: repeat(6, auto) 275px;
+    grid-template-columns: 100%;
+    grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
+  }
+  /* Header */
+  header .navbar {
+    margin: 0px 0px 30px 0px;
+  }
+  header .header__logo {
+    margin: 30px 0px 15px 0px;
+  }
+  header .header__nav {
+    justify-content: center;
+    align-items: center;
+  }
+  header .header__nav .nav__carro {
+    margin: 0px 0px 30px 0px;
+  }
+}
+/* The End, by lubiano83 */
+
+/*# sourceMappingURL=estilo.css.map */

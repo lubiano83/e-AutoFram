@@ -1,0 +1,81 @@
+/* Header */
+
+header {
+  background-image: url(../img/fondo-autofram\ \(1\).png);
+  background-color: map-get($colores, color-1);
+  color: map-get($colores, color-3);
+  border-bottom: 1px solid map-get($colores, color-5);
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  .header__logo {
+    font-weight: bold;
+    margin-left: 30px;
+    text-shadow: 15px 15px 15px map-get($colores, color-3);
+    &:hover {
+      color: map-get($colores, color-3);
+    }
+  }
+  .header__nav {
+    display: flex;
+    flex-flow: row wrap;
+    .nav__carro {
+      margin: 0px 30px 0px 0px;
+      &:hover {
+        scale: 1.2;
+      }
+    }
+    .navbar {
+      padding: 0px;
+      .container-fluid {
+        background-image: url(../img/fondo-autofram\ \(1\).png);
+        background-color: map-get($colores, color-1);
+        .navbar-toggler {
+          background-color: map-get($colores, color-2);
+        }
+        .nav-link {
+          color: map-get($colores, color-2);
+          text-decoration: none;
+          font-size: map-get($sizes, size-h4);
+          text-transform: uppercase;
+          &:hover {
+          color: map-get($colores, color-5);
+          }
+        }
+        nav ul li {
+          list-style: none;
+        }
+        li {
+          margin: 5px 0px 5px 0px;
+        }
+      }
+    }  
+  }
+  .carousel {
+    width: 100%;
+    height: 500px;
+    .carousel__foto {
+      width: 100%;
+      height: 500px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

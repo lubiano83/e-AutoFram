@@ -1,0 +1,17 @@
+/* Bucles For */
+
+@for $i from 1 through 9 {
+    .grid-#{$i} {
+    grid-area: grid-#{$i};
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+  
+@for $i from 1 through 5 {
+    h#{$i} {
+    font-size: map-get($sizes, size-h#{$i});
+  }
+}
