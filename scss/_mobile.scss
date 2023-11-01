@@ -26,12 +26,8 @@
 @include mobile(360px, 399px) {
 
     /* Header */
-    header .navbar {
-        margin: 0px 0px 30px 0px;
-    }
-
     header .header__logo {
-        margin: 30px 0px 15px 0px;
+        margin: 10px 0px 10px 0px;
     }
 
     header .header__nav {
@@ -40,7 +36,7 @@
     }
 
     header .header__nav .nav__carro {
-        margin: 0px 0px 30px 30px;
+        margin: 0px 0px 10px 30px;
     }
 
     /* Main */
@@ -131,12 +127,8 @@
 @include mobile(400px, 459px) {
 
     /* Header */
-    header .navbar {
-        margin: 0px 0px 30px 0px;
-    }
-
     header .header__logo {
-        margin: 30px 0px 15px 0px;
+        margin: 10px 0px 10px 0px;
     }
 
     header .header__nav {
@@ -145,7 +137,10 @@
     }
 
     header .header__nav .nav__carro {
-        margin: 0px 0px 30px 30px;
+        margin: 0px 0px 10px 30px;
+    }
+    header .header__nav .nav__carro {
+        margin: -5px 0px 10px 30px;
     }
 
     /* Main */
@@ -232,12 +227,8 @@
 @include mobile(460px, 509px) {
 
     /* Header */
-    header .navbar {
-        margin: 0px 0px 30px 0px;
-    }
-
     header .header__logo {
-        margin: 30px 0px 15px 0px;
+        margin: 10px 0px 10px 0px;
     }
 
     header .header__nav {
@@ -246,7 +237,7 @@
     }
 
     header .header__nav .nav__carro {
-        margin: 0px 0px 30px 30px;
+        margin: 0px 0px 10px 30px;
     }
 
     /* Main */
@@ -329,12 +320,8 @@
 @include mobile(510px, 560px) {
 
     /* Header */
-    header .navbar {
-        margin: 0px 0px 30px 0px;
-    }
-
     header .header__logo {
-        margin: 30px 0px 15px 0px;
+        margin: 10px 0px 10px 0px;
     }
 
     header .header__nav {
@@ -343,7 +330,7 @@
     }
 
     header .header__nav .nav__carro {
-        margin: 0px 0px 30px 30px;
+        margin: 0px 0px 10px 30px;
     }
 
     /* Main */
@@ -426,12 +413,8 @@
 @include mobile(561px, 569px) {
 
     /* Header */
-    header .navbar {
-        margin: 0px 0px 30px 0px;
-    }
-
     header .header__logo {
-        margin: 30px 0px 15px 0px;
+        margin: 10px 0px 10px 0px;
     }
 
     header .header__nav {
@@ -440,7 +423,7 @@
     }
 
     header .header__nav .nav__carro {
-        margin: 0px 0px 30px 30px;
+        margin: 0px 0px 10px 30px;
     }
 
     /* Main */
@@ -525,12 +508,8 @@
 @include mobile(570px, 659px) {
 
     /* Header */
-    header .navbar {
-        margin: 0px 0px 30px 0px;
-    }
-
     header .header__logo {
-        margin: 30px 0px 15px 0px;
+        margin: 10px 0px 10px 0px;
     }
 
     header .header__nav {
@@ -539,7 +518,7 @@
     }
 
     header .header__nav .nav__carro {
-        margin: 0px 0px 30px 30px;
+        margin: 0px 0px 10px 30px;
     }
 
     /* Main */
@@ -565,12 +544,8 @@
 @include mobile(660px, 730px) {
 
     /* Header */
-    header .navbar {
-        margin: 0px 0px 30px 0px;
-    }
-
     header .header__logo {
-        margin: 30px 0px 15px 0px;
+        margin: 10px 0px 10px 0px;
     }
 
     header .header__nav {
@@ -579,7 +554,7 @@
     }
 
     header .header__nav .nav__carro {
-        margin: 0px 0px 30px 30px;
+        margin: 0px 0px 10px 30px;
     }
 
     /* Main */
@@ -656,12 +631,8 @@
 @include mobile(731px, 869px) {
 
     /* Header */
-    header .navbar {
-        margin: 0px 0px 30px 0px;
-    }
-
     header .header__logo {
-        margin: 30px 0px 15px 0px;
+        margin: 10px 0px 10px 0px;
     }
 
     header .header__nav {
@@ -670,7 +641,7 @@
     }
 
     header .header__nav .nav__carro {
-        margin: 0px 0px 30px 30px;
+        margin: 0px 0px 10px 30px;
     }
 
     /* Main */
@@ -757,12 +728,8 @@
 @include mobile(870px, 879px) {
 
     /* Header */
-    header .navbar {
-        margin: 0px 0px 30px 0px;
-    }
-
     header .header__logo {
-        margin: 30px 0px 15px 0px;
+        margin: 10px 0px 10px 0px;
     }
 
     header .header__nav {
@@ -771,7 +738,7 @@
     }
 
     header .header__nav .nav__carro {
-        margin: 0px 0px 30px 30px;
+        margin: 0px 0px 10px 30px;
     }
 
     /* Main */
@@ -861,12 +828,8 @@
 @include mobile(880px, 991px) {
 
     /* Header */
-    header .navbar {
-        margin: 0px 0px 30px 0px;
-    }
-
     header .header__logo {
-        margin: 30px 0px 15px 0px;
+        margin: 10px 0px 10px 0px;
     }
 
     header .header__nav {
@@ -875,7 +838,7 @@
     }
 
     header .header__nav .nav__carro {
-        margin: 0px 0px 30px 30px;
+        margin: 0px 0px 10px 30px;
     }
 
     /* Main */
@@ -949,21 +912,13 @@
 @include mobile(992px, 999px) {
 
     /* Header */
-    header .navbar {
-        margin: 0px 0px 30px 0px;
-    }
-
     header .header__logo {
-        margin: 30px 0px 15px 0px;
+        margin: 10px 0px 10px 0px;
     }
 
     header .header__nav {
         justify-content: center;
         align-items: center;
-    }
-
-    header .header__nav .nav__carro {
-        margin: 0px 0px 30px 0px;
     }
 
     /* Main */
@@ -1037,12 +992,8 @@
 @include mobile(1000px, 1090px) {
 
     /* Header */
-    header .navbar {
-        margin: 0px 0px 30px 0px;
-    }
-
     header .header__logo {
-        margin: 30px 0px 15px 0px;
+        margin: 10px 0px 10px 0px;
     }
 
     header .header__nav {
@@ -1050,9 +1001,6 @@
         align-items: center;
     }
 
-    header .header__nav .nav__carro {
-        margin: 0px 0px 30px 0px;
-    }
 
     /* Main */
     #productos .allproducto .allproducto__producto .producto__foto {
@@ -1125,21 +1073,13 @@
 @include mobile(1091px, 1200px) {
 
     /* Header */
-    header .navbar {
-        margin: 0px 0px 30px 0px;
-    }
-
     header .header__logo {
-        margin: 30px 0px 15px 0px;
+        margin: 10px 0px 10px 0px;
     }
 
     header .header__nav {
         justify-content: center;
         align-items: center;
-    }
-
-    header .header__nav .nav__carro {
-        margin: 0px 0px 30px 0px;
     }
 }
 
