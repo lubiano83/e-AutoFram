@@ -52,10 +52,14 @@ header {
       }
     }  
   }
-  .carousel__foto {
+  .carousel {
     width: 100%;
     height: 500px;
-    object-fit: fill;
+    .carousel__foto {
+      width: 100%;
+      height: 500px;
+      object-fit: fill;
+    }
   }
 }
 
