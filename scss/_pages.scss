@@ -22,10 +22,9 @@
       }
 
       .box__item {
-        height: 200px;
         width: 200px;
+        height: 200px;
         background-color: map-get($colores, color-2);
-        object-fit: fill;
       }
 
       .box__texto {

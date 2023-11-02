@@ -251,13 +251,12 @@ main .main__titulo .container-fluid button:hover {
 #productos .allproducto .allproducto__producto {
   margin: 0px 20px 10px 20px;
 }
-#productos .allproducto .allproducto__producto .producto__foto {
+#productos .allproducto .producto__foto {
   height: 200px;
   width: 200px;
-  object-fit: fill;
   box-shadow: 15px 15px 15px #402e32;
 }
-#productos .allproducto .allproducto__producto .producto__foto:hover {
+#productos .allproducto .producto__foto:hover {
   scale: 1.1;
 }
 
@@ -278,11 +277,6 @@ main .main__titulo .container-fluid button:hover {
   width: 500px;
   height: 500px;
   box-shadow: 15px 15px 15px black;
-}
-#nosotros .nosotros .carousel .carousel__foto {
-  height: 500px;
-  width: 500px;
-  object-fit: fill;
 }
 #nosotros .nosotros .nosotros__texto {
   width: 500px;
@@ -319,9 +313,6 @@ main .main__titulo .container-fluid button:hover {
   margin: 0px 15px 0px 15px;
 }
 #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
-  height: 250px;
-  width: 500px;
-  object-fit: fill;
   box-shadow: 15px 15px 15px #402e32;
 }
 #sucursales .allsucursales .allsucursales__sucursales .sucursales__texto {
@@ -350,11 +341,6 @@ main .main__titulo .container-fluid button:hover {
   width: 500px;
   margin: 0px 15px 30px 15px;
   box-shadow: 15px 15px 15px black;
-}
-#servicios .servicios .carousel .carousel__foto {
-  height: 500px;
-  width: 500px;
-  object-fit: contain;
 }
 #servicios .servicios .servicios__texto {
   width: 500px;
@@ -429,7 +415,6 @@ main .main__titulo .container-fluid button:hover {
 #contacto .carousel .carousel__foto {
   height: 500px;
   width: 500px;
-  object-fit: fill;
 }
 
 /* Footer */
@@ -478,10 +463,9 @@ footer .footer__texto h4 {
   scale: 1.05;
 }
 .linea .linea__box .box__item {
-  height: 200px;
   width: 200px;
+  height: 200px;
   background-color: #FFF7F0;
-  object-fit: fill;
 }
 .linea .linea__box .box__texto {
   margin: 20px 10px 0px 10px;
