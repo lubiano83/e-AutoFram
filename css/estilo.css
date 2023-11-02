@@ -413,8 +413,8 @@ main .main__titulo .container-fluid button:hover {
   box-shadow: 15px 15px 15px #402e32;
 }
 #contacto .carousel .carousel__foto {
-  height: 500px;
   width: 500px;
+  height: 500px;
 }
 
 /* Footer */
