@@ -11,11 +11,11 @@
     align-items: center;
 
     .linea__box {
-      width: 205px;
+      width: 204px;
       margin: 0px 15px 45px 15px;
-      border: 2px solid map-get($colores, color-5);
       box-shadow: 15px 15px 15px map-get($colores, color-3);
       background-color: map-get($colores, color-3);
+      border: 2px solid map-get($colores, color-5);
 
       &:hover {
         scale: 1.05;

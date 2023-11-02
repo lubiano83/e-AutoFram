@@ -453,11 +453,11 @@ footer .footer__texto h4 {
   align-items: center;
 }
 .linea .linea__box {
-  width: 205px;
+  width: 204px;
   margin: 0px 15px 45px 15px;
-  border: 2px solid black;
   box-shadow: 15px 15px 15px #402e32;
   background-color: #402e32;
+  border: 2px solid black;
 }
 .linea .linea__box:hover {
   scale: 1.05;
