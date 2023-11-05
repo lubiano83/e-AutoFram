@@ -277,18 +277,17 @@ main .main__titulo .container-fluid button:hover {
 #nosotros .nosotros .carousel {
   margin: 0px 15px 30px 15px;
   width: 500px;
-  height: 500px;
+  aspect-ratio: 1/1;
   box-shadow: 15px 15px 15px black;
 }
 #nosotros .nosotros .carousel .carousel__foto {
   width: 100%;
-  height: 100%;
   object-fit: fill;
   aspect-ratio: 1/1;
 }
 #nosotros .nosotros .nosotros__texto {
   width: 500px;
-  height: 500px;
+  aspect-ratio: 1/1;
   overflow-y: scroll;
   text-align: justify;
   margin: 0px 15px 30px 15px;
@@ -321,19 +320,19 @@ main .main__titulo .container-fluid button:hover {
   margin: 0px 15px 0px 15px;
 }
 #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
-  box-shadow: 15px 15px 15px #402e32;
-  aspect-ratio: 1/1;
   width: 500px;
-  height: 250px;
+  aspect-ratio: 2/1;
   object-fit: cover;
+  box-shadow: 15px 15px 15px #402e32;
+}
+#sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+  width: 500px;
+  aspect-ratio: 2/1;
+  object-fit: cover;
+  box-shadow: 15px 15px 15px #402e32;
 }
 #sucursales .allsucursales .allsucursales__sucursales .sucursales__texto {
   margin-top: 15px;
-}
-#sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
-  height: 250px;
-  width: 500px;
-  box-shadow: 15px 15px 15px #402e32;
 }
 
 /* Servicios */
@@ -349,20 +348,19 @@ main .main__titulo .container-fluid button:hover {
   margin-bottom: 15px;
 }
 #servicios .servicios .carousel {
-  height: 500px;
+  aspect-ratio: 1/1;
   width: 500px;
   margin: 0px 15px 30px 15px;
   box-shadow: 15px 15px 15px black;
 }
 #servicios .servicios .carousel .carousel__foto {
   width: 100%;
-  height: 100%;
   object-fit: fill;
   aspect-ratio: 1/1;
 }
 #servicios .servicios .servicios__texto {
   width: 500px;
-  height: 500px;
+  aspect-ratio: 1/1;
   overflow-y: scroll;
   text-align: justify;
   margin: 0px 15px 30px 15px;
@@ -426,13 +424,12 @@ main .main__titulo .container-fluid button:hover {
 }
 #contacto .carousel {
   width: 500px;
-  height: 500px;
   margin: -10px 15px 20px 15px;
   box-shadow: 15px 15px 15px #402e32;
+  aspect-ratio: 1/1;
 }
 #contacto .carousel .carousel__foto {
   width: 100%;
-  height: 100%;
   object-fit: fill;
   aspect-ratio: 1/1;
 }
@@ -575,23 +572,19 @@ footer .footer__texto h4 {
   /* Main */
   #nosotros .nosotros .carousel {
     width: 300px;
-    height: 300px;
     margin: 0px 0px 30px 0px;
   }
   #nosotros .nosotros .nosotros__texto {
     width: 300px;
-    height: 300px;
   }
   #productos .allproducto .allproducto__producto .producto__foto {
     width: 125px;
   }
   #servicios .servicios .carousel {
     width: 300px;
-    height: 300px;
   }
   #servicios .servicios .servicios__texto {
     width: 300px;
-    height: 300px;
   }
   #servicios .servicios .servicios__texto .texto__2 ul li h5 {
     line-height: 1;
@@ -604,11 +597,9 @@ footer .footer__texto h4 {
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
     width: 300px;
-    height: 150px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
     width: 300px;
-    height: 150px;
   }
   #contacto .allcontacto .formulario #textarea {
     height: 160px;
@@ -619,7 +610,6 @@ footer .footer__texto h4 {
   #contacto .carousel {
     margin: 0px 0px 30px 0px;
     width: 300px;
-    height: 300px;
   }
   #contacto .main__titulo {
     display: inline-block;
@@ -649,23 +639,19 @@ footer .footer__texto h4 {
   /* Main */
   #nosotros .nosotros .carousel {
     width: 350px;
-    height: 350px;
     margin: 0px 0px 30px 0px;
   }
   #nosotros .nosotros .nosotros__texto {
     width: 350px;
-    height: 350px;
   }
   #productos .allproducto .allproducto__producto .producto__foto {
     width: 150px;
   }
   #servicios .servicios .carousel {
     width: 350px;
-    height: 350px;
   }
   #servicios .servicios .servicios__texto {
     width: 350px;
-    height: 350px;
   }
   #servicios .servicios .servicios__texto .texto__2 ul li h5 {
     line-height: 1;
@@ -678,11 +664,9 @@ footer .footer__texto h4 {
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
     width: 350px;
-    height: 175px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
     width: 350px;
-    height: 175px;
   }
   #contacto .allcontacto .formulario #textarea {
     height: 210px;
@@ -693,7 +677,6 @@ footer .footer__texto h4 {
   #contacto .carousel {
     margin: 0px 0px 30px 0px;
     width: 350px;
-    height: 350px;
   }
 }
 /* 460px & 509px */
@@ -717,23 +700,19 @@ footer .footer__texto h4 {
   /* Main */
   #nosotros .nosotros .carousel {
     width: 400px;
-    height: 400px;
     margin: 0px 0px 30px 0px;
   }
   #nosotros .nosotros .nosotros__texto {
     width: 400px;
-    height: 400px;
   }
   #productos .allproducto .allproducto__producto .producto__foto {
     width: 175px;
   }
   #servicios .servicios .carousel {
     width: 400px;
-    height: 400px;
   }
   #servicios .servicios .servicios__texto {
     width: 400px;
-    height: 400px;
   }
   #sucursales .allsucursales {
     margin: 0px 0px 0px 0px;
@@ -743,11 +722,9 @@ footer .footer__texto h4 {
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
     width: 400px;
-    height: 200px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
     width: 400px;
-    height: 200px;
   }
   #contacto .allcontacto .formulario #textarea {
     height: 260px;
@@ -758,7 +735,6 @@ footer .footer__texto h4 {
   #contacto .carousel {
     margin: 0px 0px 30px 0px;
     width: 400px;
-    height: 400px;
   }
 }
 /* 510px & 560px */
@@ -782,23 +758,19 @@ footer .footer__texto h4 {
   /* Main */
   #nosotros .nosotros .carousel {
     width: 450px;
-    height: 450px;
     margin: 0px 0px 30px 0px;
   }
   #nosotros .nosotros .nosotros__texto {
     width: 450px;
-    height: 450px;
   }
   #productos .allproducto .allproducto__producto .producto__foto {
     width: 200px;
   }
   #servicios .servicios .carousel {
     width: 450px;
-    height: 450px;
   }
   #servicios .servicios .servicios__texto {
     width: 450px;
-    height: 450px;
   }
   #sucursales .allsucursales {
     margin: 0px 0px 0px 0px;
@@ -808,11 +780,9 @@ footer .footer__texto h4 {
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
     width: 450px;
-    height: 225px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
     width: 450px;
-    height: 225px;
   }
   #contacto .allcontacto .formulario #textarea {
     height: 310px;
@@ -823,7 +793,6 @@ footer .footer__texto h4 {
   #contacto .carousel {
     margin: 0px 0px 30px 0px;
     width: 450px;
-    height: 450px;
   }
 }
 /* 561px & 569px */
@@ -847,31 +816,25 @@ footer .footer__texto h4 {
   /* Main */
   #nosotros .nosotros .carousel {
     width: 450px;
-    height: 450px;
     margin: 0px 0px 30px 0px;
   }
   #nosotros .nosotros .nosotros__texto {
     width: 450px;
-    height: 450px;
   }
   #productos .allproducto .allproducto__producto .producto__foto {
     width: 200px;
   }
   #servicios .servicios .carousel {
     width: 450px;
-    height: 450px;
   }
   #servicios .servicios .servicios__texto {
     width: 450px;
-    height: 450px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
     width: 450px;
-    height: 225px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
     width: 450px;
-    height: 225px;
   }
   #sucursales .allsucursales .allsucursales__sucursales {
     margin-bottom: 30px;
@@ -889,7 +852,6 @@ footer .footer__texto h4 {
   #contacto .carousel {
     margin: 0px 0px 30px 0px;
     width: 450px;
-    height: 450px;
   }
 }
 /* 570px & 659px */
@@ -947,24 +909,19 @@ footer .footer__texto h4 {
     display: inline-block;
   }
   #productos .allproducto .allproducto__producto .producto__foto {
-    height: 125px;
     width: 125px;
   }
   #nosotros .nosotros .carousel {
     width: 300px;
-    height: 300px;
   }
   #nosotros .nosotros .nosotros__texto {
     width: 300px;
-    height: 300px;
   }
   #servicios .servicios .carousel {
     width: 300px;
-    height: 300px;
   }
   #servicios .servicios .servicios__texto {
     width: 300px;
-    height: 300px;
   }
   #sucursales .allsucursales {
     margin-bottom: 0px;
@@ -982,7 +939,6 @@ footer .footer__texto h4 {
   #contacto .carousel {
     margin: 0px 0px 30px 0px;
     width: 300px;
-    height: 300px;
   }
 }
 /* 731px & 869px */
@@ -1012,27 +968,21 @@ footer .footer__texto h4 {
   }
   #nosotros .nosotros .carousel {
     width: 300px;
-    height: 300px;
   }
   #nosotros .nosotros .nosotros__texto {
     width: 300px;
-    height: 300px;
   }
   #servicios .servicios .carousel {
     width: 300px;
-    height: 300px;
   }
   #servicios .servicios .servicios__texto {
     width: 300px;
-    height: 300px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
     width: 300px;
-    height: 150px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
     width: 300px;
-    height: 150px;
   }
   #sucursales .allsucursales {
     margin-bottom: 0px;
@@ -1050,7 +1000,6 @@ footer .footer__texto h4 {
   #contacto .carousel {
     margin: 0px 0px 30px 0px;
     width: 300px;
-    height: 300px;
   }
 }
 /* 870px & 879px */
@@ -1083,27 +1032,21 @@ footer .footer__texto h4 {
   }
   #nosotros .nosotros .carousel {
     width: 350px;
-    height: 350px;
   }
   #nosotros .nosotros .nosotros__texto {
     width: 350px;
-    height: 350px;
   }
   #servicios .servicios .carousel {
     width: 350px;
-    height: 350px;
   }
   #servicios .servicios .servicios__texto {
     width: 350px;
-    height: 350px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
     width: 350px;
-    height: 175px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
     width: 350px;
-    height: 175px;
   }
   #sucursales .allsucursales {
     margin-bottom: 0px;
@@ -1121,7 +1064,6 @@ footer .footer__texto h4 {
   #contacto .carousel {
     margin: 0px 0px 30px 0px;
     width: 350px;
-    height: 350px;
   }
 }
 /* 880px & 991px */
@@ -1148,27 +1090,21 @@ footer .footer__texto h4 {
   }
   #nosotros .nosotros .carousel {
     width: 400px;
-    height: 400px;
   }
   #nosotros .nosotros .nosotros__texto {
     width: 400px;
-    height: 400px;
   }
   #servicios .servicios .carousel {
     width: 400px;
-    height: 400px;
   }
   #servicios .servicios .servicios__texto {
     width: 400px;
-    height: 400px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
     width: 400px;
-    height: 200px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
     width: 400px;
-    height: 200px;
   }
   #contacto .allcontacto .formulario #textarea,
   #contacto .allcontacto .formulario #mail {
@@ -1179,7 +1115,6 @@ footer .footer__texto h4 {
   }
   #contacto .carousel {
     width: 400px;
-    height: 400px;
   }
 }
 /* 992px & 999px */
@@ -1203,27 +1138,21 @@ footer .footer__texto h4 {
   }
   #nosotros .nosotros .carousel {
     width: 400px;
-    height: 400px;
   }
   #nosotros .nosotros .nosotros__texto {
     width: 400px;
-    height: 400px;
   }
   #servicios .servicios .carousel {
     width: 400px;
-    height: 400px;
   }
   #servicios .servicios .servicios__texto {
     width: 400px;
-    height: 400px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
     width: 400px;
-    height: 200px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
     width: 400px;
-    height: 200px;
   }
   #contacto .allcontacto .formulario #textarea,
   #contacto .allcontacto .formulario #mail {
@@ -1234,7 +1163,6 @@ footer .footer__texto h4 {
   }
   #contacto .carousel {
     width: 400px;
-    height: 400px;
   }
 }
 /* 1000px & 1090px */
@@ -1258,31 +1186,24 @@ footer .footer__texto h4 {
   }
   #nosotros .nosotros .carousel {
     width: 450px;
-    height: 450px;
   }
   #nosotros .nosotros .carousel .carousel__foto {
     width: 450px;
-    height: 450px;
   }
   #nosotros .nosotros .nosotros__texto {
     width: 450px;
-    height: 450px;
   }
   #servicios .servicios .carousel {
     width: 450px;
-    height: 450px;
   }
   #servicios .servicios .servicios__texto {
     width: 450px;
-    height: 450px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
     width: 450px;
-    height: 225px;
   }
   #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
     width: 450px;
-    height: 225px;
   }
   #contacto .allcontacto .formulario #textarea,
   #contacto .allcontacto .formulario #mail {
@@ -1293,7 +1214,6 @@ footer .footer__texto h4 {
   }
   #contacto .carousel {
     width: 450px;
-    height: 450px;
   }
 }
 /* 1091px & 1200px */
