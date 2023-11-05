@@ -276,7 +276,8 @@ main .main__titulo .container-fluid button:hover {
 }
 #nosotros .nosotros .carousel {
   margin: 0px 15px 30px 15px;
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   aspect-ratio: 1/1;
   box-shadow: 15px 15px 15px black;
 }
@@ -286,7 +287,8 @@ main .main__titulo .container-fluid button:hover {
   aspect-ratio: 1/1;
 }
 #nosotros .nosotros .nosotros__texto {
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   aspect-ratio: 1/1;
   overflow-y: scroll;
   text-align: justify;
