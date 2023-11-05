@@ -20,6 +20,10 @@
   
         .sucursales__foto {
           box-shadow: 15px 15px 15px map-get($colores, color-3);
+          aspect-ratio: 1/1;
+          width: 500px;
+          height: 250px;
+          object-fit: cover;
         }
   
         .sucursales__texto {

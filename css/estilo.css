@@ -252,8 +252,9 @@ main .main__titulo .container-fluid button:hover {
   margin: 0px 20px 10px 20px;
 }
 #productos .allproducto .producto__foto {
-  height: 200px;
+  aspect-ratio: 1/1;
   width: 200px;
+  object-fit: fill;
   box-shadow: 15px 15px 15px #402e32;
 }
 #productos .allproducto .producto__foto:hover {
@@ -277,6 +278,12 @@ main .main__titulo .container-fluid button:hover {
   width: 500px;
   height: 500px;
   box-shadow: 15px 15px 15px black;
+}
+#nosotros .nosotros .carousel .carousel__foto {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  aspect-ratio: 1/1;
 }
 #nosotros .nosotros .nosotros__texto {
   width: 500px;
@@ -314,6 +321,10 @@ main .main__titulo .container-fluid button:hover {
 }
 #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
   box-shadow: 15px 15px 15px #402e32;
+  aspect-ratio: 1/1;
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
 }
 #sucursales .allsucursales .allsucursales__sucursales .sucursales__texto {
   margin-top: 15px;
@@ -341,6 +352,12 @@ main .main__titulo .container-fluid button:hover {
   width: 500px;
   margin: 0px 15px 30px 15px;
   box-shadow: 15px 15px 15px black;
+}
+#servicios .servicios .carousel .carousel__foto {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  aspect-ratio: 1/1;
 }
 #servicios .servicios .servicios__texto {
   width: 500px;
@@ -413,8 +430,10 @@ main .main__titulo .container-fluid button:hover {
   box-shadow: 15px 15px 15px #402e32;
 }
 #contacto .carousel .carousel__foto {
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  aspect-ratio: 1/1;
 }
 
 /* Footer */
@@ -453,7 +472,7 @@ footer .footer__texto h4 {
   align-items: center;
 }
 .linea .linea__box {
-  width: 204px;
+  width: 200px;
   margin: 0px 15px 45px 15px;
   box-shadow: 15px 15px 15px #402e32;
   background-color: #402e32;
@@ -463,8 +482,9 @@ footer .footer__texto h4 {
   scale: 1.05;
 }
 .linea .linea__box .box__item {
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: fill;
   background-color: #FFF7F0;
 }
 .linea .linea__box .box__texto {
