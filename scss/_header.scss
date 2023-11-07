@@ -55,11 +55,11 @@ header {
   .carousel {
     width: 100%;
     height: 500px;
+    aspect-ratio: 2.4/1;
     .carousel__foto {
       width: 100%;
       height: 500px;
       object-fit: cover;
-      aspect-ratio: 2.4/1;
     }
   }
 }
