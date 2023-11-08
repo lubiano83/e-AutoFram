@@ -180,7 +180,6 @@ header .carousel {
 header .carousel .carousel__foto {
   width: 100%;
   aspect-ratio: 4/3;
-  object-fit: fill;
 }
 
 /* Aside */
@@ -253,7 +252,6 @@ main .main__titulo .container-fluid button:hover {
 #productos .allproducto .producto__foto {
   aspect-ratio: 1/1;
   width: 200px;
-  object-fit: fill;
   box-shadow: 15px 15px 15px #402e32;
 }
 #productos .allproducto .producto__foto:hover {
@@ -281,7 +279,6 @@ main .main__titulo .container-fluid button:hover {
 }
 #nosotros .nosotros .carousel .carousel__foto {
   width: 100%;
-  object-fit: fill;
   aspect-ratio: 1/1;
 }
 #nosotros .nosotros .nosotros__texto {
@@ -328,7 +325,6 @@ main .main__titulo .container-fluid button:hover {
 #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
   width: 500px;
   aspect-ratio: 2/1;
-  object-fit: cover;
   box-shadow: 15px 15px 15px #402e32;
 }
 #sucursales .allsucursales .allsucursales__sucursales .sucursales__texto {
@@ -355,7 +351,6 @@ main .main__titulo .container-fluid button:hover {
 }
 #servicios .servicios .carousel .carousel__foto {
   width: 100%;
-  object-fit: fill;
   aspect-ratio: 1/1;
 }
 #servicios .servicios .servicios__texto {
@@ -430,7 +425,6 @@ main .main__titulo .container-fluid button:hover {
 }
 #contacto .carousel .carousel__foto {
   width: 100%;
-  object-fit: fill;
   aspect-ratio: 1/1;
 }
 
@@ -482,7 +476,6 @@ footer .footer__texto h4 {
 .linea .linea__box .box__item {
   width: 100%;
   aspect-ratio: 1/1;
-  object-fit: fill;
   background-color: #FFF7F0;
 }
 .linea .linea__box .box__texto {
