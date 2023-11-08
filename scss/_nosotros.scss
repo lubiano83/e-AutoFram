@@ -13,8 +13,7 @@
   
       .carousel {
         margin: 0px 15px 30px 15px;
-        width: 100%;
-        max-width: 500px;
+        width: 500px;
         aspect-ratio: 1/1;
         box-shadow: 15px 15px 15px map-get($colores, color-5);
         .carousel__foto {
@@ -24,8 +23,7 @@
       }
   
       .nosotros__texto {
-        width: 100%;
-        max-width: 500px;
+        width: 500px;
         aspect-ratio: 1/1;
         overflow-y: scroll;
         text-align: justify;
