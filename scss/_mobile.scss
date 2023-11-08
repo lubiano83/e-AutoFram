@@ -425,9 +425,9 @@
     }
 }
 
-/* 660px & 730px */
+/* 668px & 869px */
 
-@include mobile(660px, 730px) {
+@include mobile(660px, 667px) {
 
     /* Header */
     header .header__logo {
@@ -468,10 +468,6 @@
         width: 300px;
     }
 
-    #sucursales .allsucursales {
-        margin-bottom: 0px;
-    }
-
     #sucursales .allsucursales .allsucursales__sucursales {
         margin-bottom: 30px;
     }
@@ -491,9 +487,9 @@
     }
 }
 
-/* 731px & 869px */
+/* 668px & 869px */
 
-@include mobile(731px, 869px) {
+@include mobile(668px, 869px) {
 
     /* Header */
     header .header__logo {
@@ -617,10 +613,6 @@
 
     #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
         width: 350px;
-    }
-
-    #sucursales .allsucursales {
-        margin-bottom: 0px;
     }
 
     #sucursales .allsucursales .allsucursales__sucursales {
