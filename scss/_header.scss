@@ -55,12 +55,10 @@ header {
   .carousel {
     background-color: white;
     width: 100%;
-    height: 500px;
-    aspect-ratio: 2.4/1;
     .carousel__foto {
       width: 100%;
-      height: 500px;
-      object-fit: fill;
+      aspect-ratio: map-get($aspect-ratios, "4x3");
+      object-fit: cover;
     }
   }
 }

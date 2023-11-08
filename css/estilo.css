@@ -2,10 +2,10 @@
 /* Variables */
 /* Colores */
 /* Sizes */
-/* Negrita */
 /* Maps */
 /* Colores */
 /* Sizes */
+/* Aspect-Ratios */
 /* Reset */
 * {
   margin: 0;
@@ -177,13 +177,11 @@ header .header__nav .navbar .container-fluid li {
 header .carousel {
   background-color: white;
   width: 100%;
-  height: 500px;
-  aspect-ratio: 2.4/1;
 }
 header .carousel .carousel__foto {
   width: 100%;
-  height: 500px;
-  object-fit: fill;
+  aspect-ratio: 75%;
+  object-fit: cover;
 }
 
 /* Aside */
