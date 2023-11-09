@@ -316,7 +316,7 @@ main .main__titulo .container-fluid button:hover {
 }
 #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
   width: 500px;
-  height: 500px;
+  aspect-ratio: 1/1;
 }
 #sucursales .allsucursales .allsucursales__sucursales .mapa-foto .sucursales__foto {
   width: 100%;
@@ -590,10 +590,7 @@ footer .footer__texto h4 {
   #sucursales .allsucursales .allsucursales__sucursales {
     margin: 0px 0px 30px 0px;
   }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
-    width: 300px;
-  }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+  #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
     width: 300px;
   }
   #contacto .allcontacto .formulario #textarea {
@@ -657,10 +654,7 @@ footer .footer__texto h4 {
   #sucursales .allsucursales .allsucursales__sucursales {
     margin: 0px 0px 30px 0px;
   }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
-    width: 350px;
-  }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+  #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
     width: 350px;
   }
   #contacto .allcontacto .formulario #textarea {
@@ -715,10 +709,7 @@ footer .footer__texto h4 {
   #sucursales .allsucursales .allsucursales__sucursales {
     margin: 0px 0px 30px 0px;
   }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
-    width: 400px;
-  }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+  #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
     width: 400px;
   }
   #contacto .allcontacto .formulario #textarea {
@@ -773,10 +764,7 @@ footer .footer__texto h4 {
   #sucursales .allsucursales .allsucursales__sucursales {
     margin: 0px 0px 30px 0px;
   }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
-    width: 450px;
-  }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+  #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
     width: 450px;
   }
   #contacto .allcontacto .formulario #textarea {
@@ -825,10 +813,7 @@ footer .footer__texto h4 {
   #servicios .servicios .servicios__texto {
     width: 450px;
   }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
-    width: 450px;
-  }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+  #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
     width: 450px;
   }
   #sucursales .allsucursales .allsucursales__sucursales {
@@ -881,7 +866,7 @@ footer .footer__texto h4 {
     margin: 0px 0px 30px 0px;
   }
 }
-/* 668px & 869px */
+/* 660px & 667px */
 @media screen and (min-width: 660px) and (max-width: 667px) {
   body {
     grid-template-rows: repeat(7, auto);
@@ -970,10 +955,7 @@ footer .footer__texto h4 {
   #servicios .servicios .servicios__texto {
     width: 300px;
   }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
-    width: 300px;
-  }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+  #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
     width: 300px;
   }
   #sucursales .allsucursales {
@@ -1034,10 +1016,7 @@ footer .footer__texto h4 {
   #servicios .servicios .servicios__texto {
     width: 350px;
   }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
-    width: 350px;
-  }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+  #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
     width: 350px;
   }
   #sucursales .allsucursales .allsucursales__sucursales {
@@ -1089,10 +1068,7 @@ footer .footer__texto h4 {
   #servicios .servicios .servicios__texto {
     width: 400px;
   }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
-    width: 400px;
-  }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+  #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
     width: 400px;
   }
   #contacto .allcontacto .formulario #textarea,
@@ -1137,10 +1113,7 @@ footer .footer__texto h4 {
   #servicios .servicios .servicios__texto {
     width: 400px;
   }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
-    width: 400px;
-  }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+  #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
     width: 400px;
   }
   #contacto .allcontacto .formulario #textarea,
@@ -1188,10 +1161,7 @@ footer .footer__texto h4 {
   #servicios .servicios .servicios__texto {
     width: 450px;
   }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
-    width: 450px;
-  }
-  #sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
+  #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
     width: 450px;
   }
   #contacto .allcontacto .formulario #textarea,
