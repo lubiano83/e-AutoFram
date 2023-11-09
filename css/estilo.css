@@ -246,11 +246,13 @@ main .main__titulo .container-fluid button:hover {
   align-items: center;
 }
 #productos .allproducto .allproducto__producto {
-  margin: 0px 20px 10px 20px;
+  width: 200px;
+  aspect-ratio: 1/1;
+  margin: 0px 15px 15px 15px;
 }
 #productos .allproducto .producto__foto {
   aspect-ratio: 1/1;
-  width: 200px;
+  width: 100%;
   box-shadow: 15px 15px 15px #402e32;
 }
 #productos .allproducto .producto__foto:hover {
@@ -321,7 +323,6 @@ main .main__titulo .container-fluid button:hover {
 #sucursales .allsucursales .allsucursales__sucursales .mapa-foto .sucursales__foto {
   width: 100%;
   aspect-ratio: 2/1;
-  object-fit: cover;
   margin-top: -6px;
 }
 #sucursales .allsucursales .allsucursales__sucursales .mapa-foto .sucursales__mapa {
@@ -402,7 +403,10 @@ main .main__titulo .container-fluid button:hover {
   font-size: 16px;
   cursor: pointer;
   display: block;
-  margin: -10px 15px 43px 15px;
+  margin: -10px 15px 40px 15px;
+}
+#contacto .allcontacto .formulario .submit, #contacto .allcontacto .formulario .reset {
+  width: 140px;
 }
 #contacto .allcontacto .formulario #textarea {
   height: 360px;
@@ -571,7 +575,7 @@ footer .footer__texto h4 {
   #nosotros .nosotros .nosotros__texto {
     width: 300px;
   }
-  #productos .allproducto .allproducto__producto .producto__foto {
+  #productos .allproducto .allproducto__producto {
     width: 125px;
   }
   #servicios .servicios .carousel {
@@ -635,7 +639,7 @@ footer .footer__texto h4 {
   #nosotros .nosotros .nosotros__texto {
     width: 350px;
   }
-  #productos .allproducto .allproducto__producto .producto__foto {
+  #productos .allproducto .allproducto__producto {
     width: 150px;
   }
   #servicios .servicios .carousel {
@@ -643,9 +647,6 @@ footer .footer__texto h4 {
   }
   #servicios .servicios .servicios__texto {
     width: 350px;
-  }
-  #servicios .servicios .servicios__texto .texto__2 ul li h5 {
-    line-height: 1;
   }
   #sucursales .allsucursales {
     margin: 0px 0px 0px 0px;
@@ -693,7 +694,7 @@ footer .footer__texto h4 {
   #nosotros .nosotros .nosotros__texto {
     width: 400px;
   }
-  #productos .allproducto .allproducto__producto .producto__foto {
+  #productos .allproducto .allproducto__producto {
     width: 175px;
   }
   #servicios .servicios .carousel {
@@ -748,9 +749,6 @@ footer .footer__texto h4 {
   #nosotros .nosotros .nosotros__texto {
     width: 450px;
   }
-  #productos .allproducto .allproducto__producto .producto__foto {
-    width: 200px;
-  }
   #servicios .servicios .carousel {
     width: 450px;
   }
@@ -802,9 +800,6 @@ footer .footer__texto h4 {
   }
   #nosotros .nosotros .nosotros__texto {
     width: 450px;
-  }
-  #productos .allproducto .allproducto__producto .producto__foto {
-    width: 200px;
   }
   #servicios .servicios .carousel {
     width: 450px;
@@ -885,9 +880,6 @@ footer .footer__texto h4 {
   }
   /* Main */
   #productos .allproducto .allproducto__producto {
-    display: inline-block;
-  }
-  #productos .allproducto .allproducto__producto .producto__foto {
     width: 125px;
   }
   #nosotros .nosotros .carousel {
@@ -901,6 +893,9 @@ footer .footer__texto h4 {
   }
   #servicios .servicios .servicios__texto {
     width: 300px;
+  }
+  #sucursales .allsucursales {
+    margin-bottom: 0px;
   }
   #sucursales .allsucursales .allsucursales__sucursales {
     margin-bottom: 30px;
@@ -917,8 +912,8 @@ footer .footer__texto h4 {
     width: 300px;
   }
 }
-/* 668px & 869px */
-@media screen and (min-width: 668px) and (max-width: 869px) {
+/* 668px & 719px */
+@media screen and (min-width: 668px) and (max-width: 719px) {
   body {
     grid-template-rows: repeat(7, auto);
     grid-template-columns: 100%;
@@ -937,10 +932,62 @@ footer .footer__texto h4 {
   }
   /* Main */
   #productos .allproducto .allproducto__producto {
-    display: inline-block;
-  }
-  #productos .allproducto .allproducto__producto .producto__foto {
     width: 125px;
+  }
+  #nosotros .nosotros .carousel {
+    width: 300px;
+  }
+  #nosotros .nosotros .nosotros__texto {
+    width: 300px;
+  }
+  #servicios .servicios .carousel {
+    width: 300px;
+  }
+  #servicios .servicios .servicios__texto {
+    width: 300px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
+    width: 300px;
+  }
+  #sucursales .allsucursales {
+    margin-bottom: 0px;
+  }
+  #sucursales .allsucursales .allsucursales__sucursales {
+    margin-bottom: 30px;
+  }
+  #contacto .allcontacto .formulario #textarea,
+  #contacto .allcontacto .formulario #mail {
+    width: 300px;
+  }
+  #contacto .allcontacto .formulario #textarea {
+    height: 160px;
+  }
+  #contacto .carousel {
+    margin: 0px 0px 30px 0px;
+    width: 300px;
+  }
+}
+/* 720px & 869px */
+@media screen and (min-width: 720px) and (max-width: 869px) {
+  body {
+    grid-template-rows: repeat(7, auto);
+    grid-template-columns: 100%;
+    grid-template-areas: "grid-1" "grid-3" "grid-4" "grid-5" "grid-6" "grid-7" "grid-9";
+  }
+  /* Header */
+  header .header__logo {
+    margin: 10px 0px 10px 0px;
+  }
+  header .header__nav {
+    justify-content: center;
+    align-items: center;
+  }
+  header .header__nav .nav__carro {
+    margin: 5px 0px 10px 30px;
+  }
+  /* Main */
+  #productos .allproducto .allproducto__producto {
+    width: 150px;
   }
   #nosotros .nosotros .carousel {
     width: 300px;
@@ -994,13 +1041,7 @@ footer .footer__texto h4 {
     margin: 5px 0px 10px 30px;
   }
   /* Main */
-  #productos .allproducto {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  #productos .allproducto .allproducto__producto .producto__foto {
+  #productos .allproducto .allproducto__producto {
     width: 150px;
   }
   #nosotros .nosotros .carousel {
@@ -1052,7 +1093,7 @@ footer .footer__texto h4 {
     margin: 5px 0px 10px 30px;
   }
   /* Main */
-  #productos .allproducto .allproducto__producto .producto__foto {
+  #productos .allproducto .allproducto__producto {
     width: 175px;
   }
   #nosotros .nosotros .carousel {
@@ -1097,7 +1138,7 @@ footer .footer__texto h4 {
     align-items: center;
   }
   /* Main */
-  #productos .allproducto .allproducto__producto .producto__foto {
+  #productos .allproducto .allproducto__producto {
     width: 175px;
   }
   #nosotros .nosotros .carousel {
@@ -1142,7 +1183,7 @@ footer .footer__texto h4 {
     align-items: center;
   }
   /* Main */
-  #productos .allproducto .allproducto__producto .producto__foto {
+  #productos .allproducto .allproducto__producto {
     width: 175px;
   }
   #nosotros .nosotros .carousel {

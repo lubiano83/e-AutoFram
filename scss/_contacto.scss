@@ -30,7 +30,10 @@
         font-size: map-get($sizes, size-h5);
         cursor: pointer;
         display: block;
-        margin: -10px 15px 43px 15px;
+        margin: -10px 15px 40px 15px;
+        .submit, .reset {
+          width: 140px;
+        }
   
         #textarea {
           height: 360px;

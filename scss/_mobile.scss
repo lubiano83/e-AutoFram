@@ -49,7 +49,7 @@
         width: 300px;
     }
 
-    #productos .allproducto .allproducto__producto .producto__foto {
+    #productos .allproducto .allproducto__producto {
         width: 125px;
     }
 
@@ -127,7 +127,7 @@
         width: 350px;
     }
 
-    #productos .allproducto .allproducto__producto .producto__foto {
+    #productos .allproducto .allproducto__producto {
         width: 150px;
     }
 
@@ -137,10 +137,6 @@
 
     #servicios .servicios .servicios__texto {
         width: 350px;
-    }
-
-    #servicios .servicios .servicios__texto .texto__2 ul li h5 {
-        line-height: 1;
     }
 
     #sucursales .allsucursales {
@@ -197,7 +193,7 @@
         width: 400px;
     }
 
-    #productos .allproducto .allproducto__producto .producto__foto {
+    #productos .allproducto .allproducto__producto {
         width: 175px;
     }
 
@@ -263,10 +259,6 @@
         width: 450px;
     }
 
-    #productos .allproducto .allproducto__producto .producto__foto {
-        width: 200px;
-    }
-
     #servicios .servicios .carousel {
         width: 450px;
     }
@@ -328,10 +320,6 @@
 
     #nosotros .nosotros .nosotros__texto {
         width: 450px;
-    }
-
-    #productos .allproducto .allproducto__producto .producto__foto {
-        width: 200px;
     }
 
     #servicios .servicios .carousel {
@@ -424,11 +412,8 @@
     }
 
     /* Main */
-    #productos .allproducto .allproducto__producto {
-        display: inline-block;
-    }
 
-    #productos .allproducto .allproducto__producto .producto__foto {
+    #productos .allproducto .allproducto__producto {
         width: 125px;
     }
 
@@ -446,6 +431,10 @@
 
     #servicios .servicios .servicios__texto {
         width: 300px;
+    }
+
+    #sucursales .allsucursales {
+        margin-bottom: 0px;
     }
 
     #sucursales .allsucursales .allsucursales__sucursales {
@@ -467,9 +456,9 @@
     }
 }
 
-/* 668px & 869px */
+/* 668px & 719px */
 
-@include mobile(668px, 869px) {
+@include mobile(668px, 719px) {
 
     /* Header */
     header .header__logo {
@@ -486,12 +475,76 @@
     }
 
     /* Main */
+
     #productos .allproducto .allproducto__producto {
-        display: inline-block;
+        width: 125px;
     }
 
-    #productos .allproducto .allproducto__producto .producto__foto {
-        width: 125px;
+    #nosotros .nosotros .carousel {
+        width: 300px;
+    }
+
+    #nosotros .nosotros .nosotros__texto {
+        width: 300px;
+    }
+
+    #servicios .servicios .carousel {
+        width: 300px;
+    }
+
+    #servicios .servicios .servicios__texto {
+        width: 300px;
+    }
+
+    #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
+        width: 300px;
+    }
+
+    #sucursales .allsucursales {
+        margin-bottom: 0px;
+    }
+
+    #sucursales .allsucursales .allsucursales__sucursales {
+        margin-bottom: 30px;
+    }
+
+    #contacto .allcontacto .formulario #textarea,
+    #contacto .allcontacto .formulario #mail {
+        width: 300px;
+    }
+
+    #contacto .allcontacto .formulario #textarea {
+        height: 160px;
+    }
+
+    #contacto .carousel {
+        margin: 0px 0px 30px 0px;
+        width: 300px;
+    }
+}
+
+/* 720px & 869px */
+
+@include mobile(720px, 869px) {
+
+    /* Header */
+    header .header__logo {
+        margin: 10px 0px 10px 0px;
+    }
+
+    header .header__nav {
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .header__nav .nav__carro {
+        margin: 5px 0px 10px 30px;
+    }
+
+    /* Main */
+
+    #productos .allproducto .allproducto__producto {
+        width: 150px;
     }
 
     #nosotros .nosotros .carousel {
@@ -556,14 +609,8 @@
     }
 
     /* Main */
-    #productos .allproducto {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        align-items: center;
-    }
 
-    #productos .allproducto .allproducto__producto .producto__foto {
+    #productos .allproducto .allproducto__producto {
         width: 150px;
     }
 
@@ -625,7 +672,7 @@
     }
 
     /* Main */
-    #productos .allproducto .allproducto__producto .producto__foto {
+    #productos .allproducto .allproducto__producto {
         width: 175px;
     }
 
@@ -678,7 +725,7 @@
     }
 
     /* Main */
-    #productos .allproducto .allproducto__producto .producto__foto {
+    #productos .allproducto .allproducto__producto {
         width: 175px;
     }
 
@@ -733,7 +780,7 @@
 
 
     /* Main */
-    #productos .allproducto .allproducto__producto .producto__foto {
+    #productos .allproducto .allproducto__producto {
         width: 175px;
     }
 
