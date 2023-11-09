@@ -17,19 +17,20 @@
       justify-content: center;
       align-items: center;
       margin: 0px 15px 0px 15px;
-
-
-      .sucursales__foto {
+      .mapa-foto {
         width: 500px;
-        aspect-ratio: 2/1;
-        object-fit: cover;
-        box-shadow: 15px 15px 15px map-get($colores, color-3);
-      }
-
-      .sucursales__mapa {
-        width: 500px;
-        aspect-ratio: 2/1;
-        box-shadow: 15px 15px 15px map-get($colores, color-3);
+        height: 500px;
+        .sucursales__foto {
+          width: 100%;
+          aspect-ratio: 2/1;
+          object-fit: cover;
+          box-shadow: 15px 15px 15px map-get($colores, color-3);
+        }
+        .sucursales__mapa {
+          width: 100%;
+          aspect-ratio: 2/1;
+          box-shadow: 15px 15px 15px map-get($colores, color-3);
+        }
       }
 
       .sucursales__texto {

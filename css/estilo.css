@@ -314,14 +314,18 @@ main .main__titulo .container-fluid button:hover {
   align-items: center;
   margin: 0px 15px 0px 15px;
 }
-#sucursales .allsucursales .allsucursales__sucursales .sucursales__foto {
+#sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
   width: 500px;
+  height: 500px;
+}
+#sucursales .allsucursales .allsucursales__sucursales .mapa-foto .sucursales__foto {
+  width: 100%;
   aspect-ratio: 2/1;
   object-fit: cover;
   box-shadow: 15px 15px 15px #402e32;
 }
-#sucursales .allsucursales .allsucursales__sucursales .sucursales__mapa {
-  width: 500px;
+#sucursales .allsucursales .allsucursales__sucursales .mapa-foto .sucursales__mapa {
+  width: 100%;
   aspect-ratio: 2/1;
   box-shadow: 15px 15px 15px #402e32;
 }
