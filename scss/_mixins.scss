@@ -15,8 +15,8 @@
     @include botones(map-get($colores, color-2), map-get($colores, color-3), center, map-get($colores, color-2));
     box-shadow: 15px 15px 15px map-get($colores, color-3);
     &:hover {
-        background-color: map-get($colores, color-2);
-        color: map-get($colores, color-3);
+        background-color: map-get($colores, color-1);
+        color: map-get($colores, color-2);
         border: 1px solid map-get($colores, color-2);
     }
 }

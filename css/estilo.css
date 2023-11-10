@@ -229,9 +229,9 @@ main .main__titulo .container-fluid button {
   box-shadow: 15px 15px 15px #402e32;
 }
 main .main__titulo .container-fluid button:hover {
-  background-color: #FFF7F0;
-  color: #528AFF;
-  border: 1px solid #528AFF;
+  background-color: #ff6f00;
+  color: #FFF7F0;
+  border: 1px solid #FFF7F0;
 }
 
 /* Productos */
@@ -505,8 +505,8 @@ footer .footer__texto h4 {
   box-shadow: 15px 15px 15px #402e32;
 }
 .submit:hover, .reset:hover {
-  background-color: #FFF7F0;
-  color: #402e32;
+  background-color: #ff6f00;
+  color: #FFF7F0;
   border: 1px solid #FFF7F0;
 }
 
