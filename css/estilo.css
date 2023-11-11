@@ -523,9 +523,9 @@ footer .footer__texto h4 {
   align-items: center;
 }
 .texto__agregar:hover {
-  background-color: #FFF7F0;
-  color: #ff6f00;
-  border: 1px solid #ff6f00;
+  background-color: #00B91B;
+  color: #FFF7F0;
+  border: 1px solid #FFF7F0;
 }
 
 .titulo__catalogo {
@@ -542,9 +542,9 @@ footer .footer__texto h4 {
   box-shadow: 15px 15px 15px #402e32;
 }
 .titulo__catalogo:hover {
-  background-color: #FFF7F0;
-  color: #528AFF;
-  border: 1px solid #528AFF;
+  background-color: #00B91B;
+  color: #FFF7F0;
+  border: 1px solid #FFF7F0;
 }
 
 /* Mobile */
