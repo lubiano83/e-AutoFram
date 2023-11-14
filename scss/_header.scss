@@ -1,58 +1,90 @@
 /* Header */
 
 header {
+  width: 100%;
   background-image: url(../img/fondo-autofram\ \(1\).png);
   background-color: map-get($colores, color-1);
   color: map-get($colores, color-3);
   border-bottom: 1px solid map-get($colores, color-5);
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  .header__logo {
-    font-weight: bold;
-    margin: 10px 0px 10px 0px;
-    text-shadow: 15px 15px 15px map-get($colores, color-3);
-    &:hover {
-      color: map-get($colores, color-3);
-    }
-  }
 
-  .header__nav {
+  .header__contenedor {
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
-    margin: 0px 0px 15px 0px;
-    .nav__carro {
-      margin: 0px 0px 5px 0px;
+    justify-content: space-evenly;  
+    align-items: center;
+
+    .contenedor__logo {
+      font-weight: bold;
+      margin: 10px 30px 15px 30px;
+      text-shadow: 15px 15px 15px map-get($colores, color-3);
+
       &:hover {
-        scale: 1.2;
+        color: map-get($colores, color-3);
       }
     }
-    
+
+    .contenedor__svg {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin: 0px 30px 0px 30px;
+      .svg {
+        height: 50px;
+        width: 50px;
+        color: map-get($colores, color-2);
+        &:hover {
+          scale: 1.2;
+        }
+      }
+    }
     .navbar {
       padding: 0px;
+      text-align: center;
+      margin: 0px 30px 0px 30px;
+  
       .container-fluid {
         background-image: url(../img/fondo-autofram\ \(1\).png);
         background-color: map-get($colores, color-1);
+  
         .navbar-toggler {
           background-color: map-get($colores, color-2);
         }
+
+        .navbar-nav {
+          position: absolute;
+          text-align: center;
+          z-index: 3;
+        }
+  
         .nav-link {
           color: map-get($colores, color-2);
           text-decoration: none;
           font-size: map-get($sizes, size-h4);
           text-transform: uppercase;
+          padding: 10px 20px 10px 20px;
+          margin-left: -64px;
+          background-color: map-get($colores, color-1);
+          overflow: visible;
+          background-image: url(../img/fondo-autofram\ \(1\).png);
+  
           &:hover {
-          color: map-get($colores, color-5);
+            color: map-get($colores, color-5);
           }
         }
+  
         nav ul li {
           list-style: none;
-        }
-        li {
-          margin: 5px 0px 5px 0px;
         }
       }
     }
   }
+
+  
+
+
   .carousel {
     width: 100%;
     .carousel__foto {
@@ -61,24 +93,3 @@ header {
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

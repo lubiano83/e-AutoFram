@@ -26,17 +26,12 @@
 @include mobile(360px, 399px) {
 
     /* Header */
-    header .header__logo {
-        margin: 10px 0px 10px 0px;
+    header .header__contenedor .navbar {
+        margin: 0px 30px 30px 30px;
     }
 
-    header .header__nav {
-        justify-content: center;
-        align-items: center;
-    }
-
-    header .header__nav .nav__carro {
-        margin: 5px 0px 10px 30px;
+    header .header__contenedor .contenedor__svg {
+        margin: 0px 30px 30px 30px;
     }
 
     /* Main */
@@ -100,21 +95,12 @@
 @include mobile(400px, 459px) {
 
     /* Header */
-    header .header__logo {
-        margin: 10px 0px 10px 0px;
+    header .header__contenedor .navbar {
+        margin: 0px 30px 30px 30px;
     }
 
-    header .header__nav {
-        justify-content: center;
-        align-items: center;
-    }
-
-    header .header__nav .nav__carro {
-        margin: 0px 0px 10px 30px;
-    }
-
-    header .header__nav .nav__carro {
-        margin: 5px 0px 10px 30px;
+    header .header__contenedor .contenedor__svg {
+        margin: 0px 30px 30px 30px;
     }
 
     /* Main */
@@ -170,17 +156,12 @@
 @include mobile(460px, 509px) {
 
     /* Header */
-    header .header__logo {
-        margin: 10px 0px 10px 0px;
+    header .header__contenedor .navbar {
+        margin: 0px 30px 30px 30px;
     }
 
-    header .header__nav {
-        justify-content: center;
-        align-items: center;
-    }
-
-    header .header__nav .nav__carro {
-        margin: 5px 0px 10px 30px;
+    header .header__contenedor .contenedor__svg {
+        margin: 0px 30px 30px 30px;
     }
 
     /* Main */
@@ -236,17 +217,12 @@
 @include mobile(510px, 560px) {
 
     /* Header */
-    header .header__logo {
-        margin: 10px 0px 10px 0px;
+    header .header__contenedor .navbar {
+        margin: 0px 30px 30px 30px;
     }
 
-    header .header__nav {
-        justify-content: center;
-        align-items: center;
-    }
-
-    header .header__nav .nav__carro {
-        margin: 5px 0px 10px 30px;
+    header .header__contenedor .contenedor__svg {
+        margin: 0px 30px 30px 30px;
     }
 
     /* Main */
@@ -295,20 +271,15 @@
 
 /* 561px & 569px */
 
-@include mobile(561px, 569px) {
+@include mobile(561px, 579px) {
 
     /* Header */
-    header .header__logo {
-        margin: 10px 0px 10px 0px;
+    header .header__contenedor .navbar {
+        margin: 0px 30px 30px 30px;
     }
 
-    header .header__nav {
-        justify-content: center;
-        align-items: center;
-    }
-
-    header .header__nav .nav__carro {
-        margin: 5px 0px 10px 30px;
+    header .header__contenedor .contenedor__svg {
+        margin: 0px 30px 30px 30px;
     }
 
     /* Main */
@@ -357,22 +328,13 @@
     }
 }
 
-/* 570px & 659px */
+/* 580px & 659px */
 
-@include mobile(570px, 659px) {
+@include mobile(580px, 659px) {
 
     /* Header */
-    header .header__logo {
-        margin: 10px 0px 10px 0px;
-    }
-
-    header .header__nav {
-        justify-content: center;
-        align-items: center;
-    }
-
-    header .header__nav .nav__carro {
-        margin: 5px 0px 10px 30px;
+    header .header__contenedor .navbar {
+        margin: 0px 30px 30px 30px;
     }
 
     /* Main */
@@ -398,17 +360,8 @@
 @include mobile(660px, 667px) {
 
     /* Header */
-    header .header__logo {
-        margin: 10px 0px 10px 0px;
-    }
-
-    header .header__nav {
-        justify-content: center;
-        align-items: center;
-    }
-
-    header .header__nav .nav__carro {
-        margin: 5px 0px 10px 30px;
+    header .header__contenedor .navbar {
+        margin: 0px 30px 30px 30px;
     }
 
     /* Main */
@@ -456,22 +409,13 @@
     }
 }
 
-/* 668px & 719px */
+/* 668px & 720px */
 
-@include mobile(668px, 719px) {
+@include mobile(668px, 720px) {
 
     /* Header */
-    header .header__logo {
-        margin: 10px 0px 10px 0px;
-    }
-
-    header .header__nav {
-        justify-content: center;
-        align-items: center;
-    }
-
-    header .header__nav .nav__carro {
-        margin: 5px 0px 10px 30px;
+    header .header__contenedor .navbar {
+        margin: 0px 30px 30px 30px;
     }
 
     /* Main */
@@ -523,23 +467,9 @@
     }
 }
 
-/* 720px & 869px */
+/* 721px & 869px */
 
-@include mobile(720px, 869px) {
-
-    /* Header */
-    header .header__logo {
-        margin: 10px 0px 10px 0px;
-    }
-
-    header .header__nav {
-        justify-content: center;
-        align-items: center;
-    }
-
-    header .header__nav .nav__carro {
-        margin: 5px 0px 10px 30px;
-    }
+@include mobile(721px, 869px) {
 
     /* Main */
 
@@ -594,20 +524,6 @@
 
 @include mobile(870px, 879px) {
 
-    /* Header */
-    header .header__logo {
-        margin: 10px 0px 10px 0px;
-    }
-
-    header .header__nav {
-        justify-content: center;
-        align-items: center;
-    }
-
-    header .header__nav .nav__carro {
-        margin: 5px 0px 10px 30px;
-    }
-
     /* Main */
 
     #productos .allproducto .allproducto__producto {
@@ -657,20 +573,6 @@
 
 @include mobile(880px, 991px) {
 
-    /* Header */
-    header .header__logo {
-        margin: 10px 0px 10px 0px;
-    }
-
-    header .header__nav {
-        justify-content: center;
-        align-items: center;
-    }
-
-    header .header__nav .nav__carro {
-        margin: 5px 0px 10px 30px;
-    }
-
     /* Main */
     #productos .allproducto .allproducto__producto {
         width: 175px;
@@ -713,16 +615,6 @@
 /* 992px & 999px */
 
 @include mobile(992px, 999px) {
-
-    /* Header */
-    header .header__logo {
-        margin: 10px 0px 10px 0px;
-    }
-
-    header .header__nav {
-        justify-content: center;
-        align-items: center;
-    }
 
     /* Main */
     #productos .allproducto .allproducto__producto {
@@ -767,17 +659,6 @@
 /* 1000px & 1090px */
 
 @include mobile(1000px, 1090px) {
-
-    /* Header */
-    header .header__logo {
-        margin: 10px 0px 10px 0px;
-    }
-
-    header .header__nav {
-        justify-content: center;
-        align-items: center;
-    }
-
 
     /* Main */
     #productos .allproducto .allproducto__producto {
@@ -826,15 +707,6 @@
 
 @include mobile(1091px, 1200px) {
 
-    /* Header */
-    header .header__logo {
-        margin: 10px 0px 10px 0px;
-    }
-
-    header .header__nav {
-        justify-content: center;
-        align-items: center;
-    }
 }
 
 /* The End, by lubiano83 */
