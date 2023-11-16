@@ -413,14 +413,6 @@ main .main__titulo .container-fluid button:hover {
   background-color: #b5876d;
   padding-bottom: 5px;
 }
-#contacto .titulo__link {
-  height: 50px;
-  width: 50px;
-  box-shadow: 15px 15px 15px #402e32;
-}
-#contacto .titulo__link:hover {
-  scale: 1.2;
-}
 #contacto .allcontacto {
   width: 100%;
   background-image: url(../img/fondo-autofram\ \(1\).png);
@@ -442,7 +434,8 @@ main .main__titulo .container-fluid button:hover {
   display: block;
   margin: 0px 15px 30px 15px;
 }
-#contacto .allcontacto .formulario .submit, #contacto .allcontacto .formulario .reset {
+#contacto .allcontacto .formulario .submit,
+#contacto .allcontacto .formulario .reset {
   width: 140px;
 }
 #contacto .allcontacto .formulario #textarea {
@@ -470,6 +463,14 @@ main .main__titulo .container-fluid button:hover {
 #contacto .allcontacto .carousel .carousel__foto {
   width: 100%;
   aspect-ratio: 1/1;
+}
+#contacto .svg {
+  height: 50px;
+  width: 50px;
+  color: #FFF7F0;
+}
+#contacto .svg:hover {
+  scale: 1.2;
 }
 
 /* Footer */
