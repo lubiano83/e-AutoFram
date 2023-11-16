@@ -17,7 +17,7 @@ header {
     .contenedor__logo {
       font-weight: bold;
       margin: 10px 30px 15px 30px;
-      text-shadow: 15px 15px 15px map-get($colores, color-3);
+      text-shadow: 15px 15px 15px map-get($colores , color-3);
 
       &:hover {
         color: map-get($colores, color-3);
@@ -37,6 +37,7 @@ header {
         color: map-get($colores, color-2);
         &:hover {
           scale: 1.2;
+          color: map-get($colores, color-3);
         }
       }
     }

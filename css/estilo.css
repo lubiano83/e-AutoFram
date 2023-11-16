@@ -158,6 +158,7 @@ header .header__contenedor .contenedor__svg .svg {
 }
 header .header__contenedor .contenedor__svg .svg:hover {
   scale: 1.2;
+  color: #402e32;
 }
 header .header__contenedor .navbar {
   padding: 0px;
@@ -457,8 +458,8 @@ main .main__titulo .container-fluid button:hover {
   min-width: 300px;
   width: 42%;
   margin: 0px 15px 30px 15px;
-  box-shadow: 15px 15px 15px #402e32;
   aspect-ratio: 1/1;
+  box-shadow: 15px 15px 15px #402e32;
 }
 #contacto .allcontacto .carousel .carousel__foto {
   width: 100%;
@@ -471,6 +472,7 @@ main .main__titulo .container-fluid button:hover {
 }
 #contacto .svg:hover {
   scale: 1.2;
+  color: #ff6f00;
 }
 
 /* Footer */
