@@ -469,6 +469,7 @@ main .main__titulo .container-fluid button:hover {
   height: 50px;
   width: 50px;
   color: #FFF7F0;
+  margin: 0px 2px 0px 2px;
 }
 #contacto .svg:hover {
   scale: 1.2;

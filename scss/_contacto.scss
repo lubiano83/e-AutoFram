@@ -64,6 +64,7 @@
     height: 50px;
     width: 50px;
     color: map-get($colores, color-2);
+    margin: 0px 2px 0px 2px;
 
     &:hover {
       scale: 1.2;
