@@ -1,0 +1,18 @@
+/* Aside */
+
+aside {
+  background-image: url(../img/fondo-autofram\ \(1\).png);
+  background-color: map-get($colores, color-2);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside-1 {
+  border-right: 1px solid map-get($colores, color-5);
+}
+
+.aside-2 {
+  border-left: 1px solid map-get($colores, color-5);
+}

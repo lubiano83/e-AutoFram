@@ -1,0 +1,48 @@
+/* Mixins */
+/* Botones */
+
+@mixin botones($color, $background-color, $valor-text-align, $borde) {
+    font-size: map-get($sizes, size-h5);
+    background-color: $background-color;
+    border: 1px solid $borde;
+    color: $color;
+    height: 50px;
+    width: 150px;
+    text-align: $valor-text-align;
+}
+
+.submit, .reset {
+    @include botones(map-get($colores, color-2), map-get($colores, color-3), center, map-get($colores, color-2));
+    box-shadow: 15px 15px 15px map-get($colores, color-3);
+    &:hover {
+        background-color: map-get($colores, color-1);
+        color: map-get($colores, color-2);
+        border: 1px solid map-get($colores, color-2);
+    }
+}
+
+.texto__agregar {
+    @include botones(map-get($colores, color-2), map-get($colores, color-1), center, map-get($colores, color-2));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+        background-color: map-get($colores, color-7);
+        color: map-get($colores, color-2);
+        border: 1px solid map-get($colores, color-2);
+    }
+}
+
+.titulo__catalogo {
+    @include botones (map-get($colores, color-2), map-get($colores, color-6), center, map-get($colores, color-2));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 15px 15px 15px map-get($colores, color-3);
+    &:hover {
+        background-color: map-get($colores, color-7);
+        color: map-get($colores, color-2);
+        border: 1px solid map-get($colores, color-2);
+    }
+}
+
