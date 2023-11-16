@@ -12,13 +12,17 @@
     margin-bottom: 30px;
 
     .allsucursales__sucursales {
+      max-width: 500px;
+      min-width: 300px;
+      width: 42%;
       display: flex;
       flex-flow: column wrap;
       justify-content: center;
       align-items: center;
       margin: 0px 15px 0px 15px;
       .mapa-foto {
-        width: 500px;
+        max-width: 500px;
+        min-width: 300px;
         aspect-ratio: 1/1;
         box-shadow: 15px 15px 15px map-get($colores, color-3);
         .sucursales__foto {

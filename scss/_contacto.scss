@@ -28,22 +28,25 @@
         border: none;
         border-radius: 5px;
         font-size: map-get($sizes, size-h5);
+        max-width: 500px;
+        min-width: 300px;
+        width: 42%;
         cursor: pointer;
         display: block;
-        margin: -10px 15px 40px 15px;
+        margin: 0px 15px 30px 15px;
         .submit, .reset {
           width: 140px;
         }
   
         #textarea {
-          height: 360px;
+          aspect-ratio: 3/2;
         }
   
         #textarea,
         #mail {
-          text-align: center;
           display: block;
-          width: 500px;
+          width: 100%;
+          text-align: center;
           padding: 10px;
           border-radius: 5px;
           font-size: map-get($sizes, size-h5);
@@ -51,17 +54,18 @@
           color: map-get($colores, color-3);
         }
       }
-    }
-  
-    .carousel {
-      width: 500px;
-      margin: -10px 15px 20px 15px;
-      box-shadow: 15px 15px 15px map-get($colores, color-3);
-      aspect-ratio: 1/1;
-      
-      .carousel__foto {
-        width: 100%;
+      .carousel {
+        max-width: 500px;
+        min-width: 300px;
+        width: 42%;
+        margin: 0px 15px 30px 15px;
+        box-shadow: 15px 15px 15px map-get($colores, color-3);
         aspect-ratio: 1/1;
+        
+        .carousel__foto {
+          width: 100%;
+          aspect-ratio: 1/1;
+        }
       }
     }
   }

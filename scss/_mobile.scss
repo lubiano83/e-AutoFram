@@ -5,7 +5,7 @@
     @media screen and (min-width: $min) and (max-width: $max) {
         body {
             grid-template-rows: repeat(7, auto);
-            grid-template-columns: 100%;
+            grid-template-columns: 100vw;
             grid-template-areas:
                 "grid-1"
                 "grid-3"
@@ -27,64 +27,47 @@
 
     /* Header */
     header .header__contenedor .navbar {
-        margin: 0px 30px 30px 30px;
+        margin: 0px 0px 30px 0px;
     }
-
     header .header__contenedor .contenedor__svg {
         margin: 0px 30px 30px 30px;
     }
-
-    /* Main */
+    /* Nosotros */
     #nosotros .nosotros .carousel {
-        width: 300px;
-        margin: 0px 0px 30px 0px;
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
     #nosotros .nosotros .nosotros__texto {
-        width: 300px;
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
-    #productos .allproducto .allproducto__producto {
-        width: 125px;
-    }
-
-    #servicios .servicios .carousel {
-        width: 300px;
-    }
-
-    #servicios .servicios .servicios__texto {
-        width: 300px;
-    }
-
-    #servicios .servicios .servicios__texto .texto__2 ul li h5 {
-        line-height: 1;
-    }
-
+    /* Sucursales */
     #sucursales .allsucursales {
-        margin: 0px 0px 0px 0px;
+        flex-flow: column wrap;
+        margin-bottom: 0px;
     }
-
     #sucursales .allsucursales .allsucursales__sucursales {
-        margin: 0px 0px 30px 0px;
+        margin: 0px 30px 30px 30px;
+        width: 80%;
     }
-
-    #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
-        width: 300px;
+    /* Servicios */
+    #servicios .servicios .carousel {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
-    #contacto .allcontacto .formulario #textarea {
-        height: 160px;
+    #servicios .servicios .servicios__texto {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
-    #contacto .allcontacto .formulario #textarea, #contacto .allcontacto .formulario #mail {
-        width: 300px;
+    /* Contacto */
+    #contacto .allcontacto .formulario {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
-    #contacto .carousel {
-        margin: 0px 0px 30px 0px;
-        width: 300px;
+    #contacto .allcontacto .carousel {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
     #contacto .main__titulo {
         display: inline-block
     }
@@ -98,56 +81,44 @@
     header .header__contenedor .navbar {
         margin: 0px 30px 30px 30px;
     }
-
     header .header__contenedor .contenedor__svg {
         margin: 0px 30px 30px 30px;
     }
-
-    /* Main */
+    /* Nosotros */
     #nosotros .nosotros .carousel {
-        width: 350px;
-        margin: 0px 0px 30px 0px;
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
     #nosotros .nosotros .nosotros__texto {
-        width: 350px;
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
-    #productos .allproducto .allproducto__producto {
-        width: 150px;
-    }
-
-    #servicios .servicios .carousel {
-        width: 350px;
-    }
-
-    #servicios .servicios .servicios__texto {
-        width: 350px;
-    }
-
+    /* Sucursales */
     #sucursales .allsucursales {
-        margin: 0px 0px 0px 0px;
+        flex-flow: column wrap;
+        margin-bottom: 0px;
     }
-
     #sucursales .allsucursales .allsucursales__sucursales {
-        margin: 0px 0px 30px 0px;
+        margin: 0px 30px 30px 30px;
+        width: 80%;
     }
-
-    #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
-        width: 350px;
+    /* Servicios */
+    #servicios .servicios .carousel {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
-    #contacto .allcontacto .formulario #textarea {
-        height: 210px;
-      }
-
-    #contacto .allcontacto .formulario #textarea, #contacto .allcontacto .formulario #mail {
-        width: 350px;
+    #servicios .servicios .servicios__texto {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
-    #contacto .carousel {
-        margin: 0px 0px 30px 0px;
-        width: 350px;
+    /* Contacto */
+    #contacto .allcontacto .formulario {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
+    }
+    #contacto .allcontacto .carousel {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
 }
 
@@ -159,56 +130,44 @@
     header .header__contenedor .navbar {
         margin: 0px 30px 30px 30px;
     }
-
     header .header__contenedor .contenedor__svg {
         margin: 0px 30px 30px 30px;
     }
-
-    /* Main */
+    /* Nosotros */
     #nosotros .nosotros .carousel {
-        width: 400px;
-        margin: 0px 0px 30px 0px;
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
     #nosotros .nosotros .nosotros__texto {
-        width: 400px;
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
-    #productos .allproducto .allproducto__producto {
-        width: 175px;
-    }
-
-    #servicios .servicios .carousel {
-        width: 400px;
-    }
-
-    #servicios .servicios .servicios__texto {
-        width: 400px;
-    }
-
+    /* Sucursales */
     #sucursales .allsucursales {
-        margin: 0px 0px 0px 0px;
+        flex-flow: column wrap;
+        margin-bottom: 0px;
     }
-
     #sucursales .allsucursales .allsucursales__sucursales {
-        margin: 0px 0px 30px 0px;
+        margin: 0px 30px 30px 30px;
+        width: 80%;
     }
-
-    #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
-        width: 400px;
+    /* Servicios */
+    #servicios .servicios .carousel {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
-    #contacto .allcontacto .formulario #textarea {
-        height: 260px;
+    #servicios .servicios .servicios__texto {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
-    #contacto .allcontacto .formulario #textarea, #contacto .allcontacto .formulario #mail {
-        width: 400px;
+    /* Contacto */
+    #contacto .allcontacto .formulario {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
-    #contacto .carousel {
-        margin: 0px 0px 30px 0px;
-        width: 400px;
+    #contacto .allcontacto .carousel {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
 }
 
@@ -220,52 +179,44 @@
     header .header__contenedor .navbar {
         margin: 0px 30px 30px 30px;
     }
-
     header .header__contenedor .contenedor__svg {
         margin: 0px 30px 30px 30px;
     }
-
-    /* Main */
+    /* Nosotros */
     #nosotros .nosotros .carousel {
-        width: 450px;
-        margin: 0px 0px 30px 0px;
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
     #nosotros .nosotros .nosotros__texto {
-        width: 450px;
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
-    #servicios .servicios .carousel {
-        width: 450px;
-    }
-
-    #servicios .servicios .servicios__texto {
-        width: 450px;
-    }
-
+    /* Sucursales */
     #sucursales .allsucursales {
-        margin: 0px 0px 0px 0px;
+        flex-flow: column wrap;
+        margin-bottom: 0px;
     }
-
     #sucursales .allsucursales .allsucursales__sucursales {
-        margin: 0px 0px 30px 0px;
+        margin: 0px 30px 30px 30px;
+        width: 80%;
     }
-
-    #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
-        width: 450px;
+    /* Servicios */
+    #servicios .servicios .carousel {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
-    #contacto .allcontacto .formulario #textarea {
-        height: 310px;
+    #servicios .servicios .servicios__texto {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
-    #contacto .allcontacto .formulario #textarea, #contacto .allcontacto .formulario #mail {
-        width: 450px;
+    /* Contacto */
+    #contacto .allcontacto .formulario {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
-    #contacto .carousel {
-        margin: 0px 0px 30px 0px;
-        width: 450px;
+    #contacto .allcontacto .carousel {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
 }
 
@@ -277,54 +228,44 @@
     header .header__contenedor .navbar {
         margin: 0px 30px 30px 30px;
     }
-
     header .header__contenedor .contenedor__svg {
         margin: 0px 30px 30px 30px;
     }
-
-    /* Main */
-
+    /* Nosotros */
     #nosotros .nosotros .carousel {
-        width: 450px;
-        margin: 0px 0px 30px 0px;
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
     #nosotros .nosotros .nosotros__texto {
-        width: 450px;
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
-    #servicios .servicios .carousel {
-        width: 450px;
-    }
-
-    #servicios .servicios .servicios__texto {
-        width: 450px;
-    }
-
-    #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
-        width: 450px;
-    }
-
-    #sucursales .allsucursales .allsucursales__sucursales {
-        margin-bottom: 30px;
-    }
-
+    /* Sucursales */
     #sucursales .allsucursales {
+        flex-flow: column wrap;
         margin-bottom: 0px;
     }
-
-    #contacto .allcontacto .formulario #textarea,
-    #contacto .allcontacto .formulario #mail {
-        width: 450px;
+    #sucursales .allsucursales .allsucursales__sucursales {
+        margin: 0px 30px 30px 30px;
+        width: 80%;
     }
-
-    #contacto .allcontacto .formulario #textarea {
-        height: 310px;
+    /* Servicios */
+    #servicios .servicios .carousel {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
-    #contacto .carousel {
-        margin: 0px 0px 30px 0px;
-        width: 450px;
+    #servicios .servicios .servicios__texto {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
+    }
+    /* Contacto */
+    #contacto .allcontacto .formulario {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
+    }
+    #contacto .allcontacto .carousel {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
 }
 
@@ -336,22 +277,41 @@
     header .header__contenedor .navbar {
         margin: 0px 30px 30px 30px;
     }
-
-    /* Main */
+    /* Nosotros */
+    #nosotros .nosotros .carousel {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
+    }
+    #nosotros .nosotros .nosotros__texto {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
+    }
+    /* Sucursales */
     #sucursales .allsucursales {
+        flex-flow: column wrap;
         margin-bottom: 0px;
     }
-
     #sucursales .allsucursales .allsucursales__sucursales {
-        margin-bottom: 30px;
+        margin: 0px 30px 30px 30px;
+        width: 80%;
     }
-
-    #contacto .main-4__all-contacto .formulario {
-        margin: 0px 0px 30px 0px;
+    /* Servicios */
+    #servicios .servicios .carousel {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
-
-    #contacto .carousel {
-        margin: 0px 0px 30px 0px;
+    #servicios .servicios .servicios__texto {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
+    }
+    /* Contacto */
+    #contacto .allcontacto .formulario {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
+    }
+    #contacto .allcontacto .carousel {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
 }
 
@@ -363,350 +323,73 @@
     header .header__contenedor .navbar {
         margin: 0px 30px 30px 30px;
     }
-
-    /* Main */
-
-    #productos .allproducto .allproducto__producto {
-        width: 125px;
-    }
-
-    #nosotros .nosotros .carousel {
-        width: 300px;
-    }
-
-    #nosotros .nosotros .nosotros__texto {
-        width: 300px;
-    }
-
-    #servicios .servicios .carousel {
-        width: 300px;
-    }
-
-    #servicios .servicios .servicios__texto {
-        width: 300px;
-    }
-
+    /* Sucursales */
     #sucursales .allsucursales {
+        flex-flow: column wrap;
         margin-bottom: 0px;
     }
-
     #sucursales .allsucursales .allsucursales__sucursales {
-        margin-bottom: 30px;
-    }
-
-    #contacto .allcontacto .formulario #textarea,
-    #contacto .allcontacto .formulario #mail {
-        width: 300px;
-    }
-
-    #contacto .allcontacto .formulario #textarea {
-        height: 160px;
-    }
-
-    #contacto .carousel {
-        margin: 0px 0px 30px 0px;
-        width: 300px;
+        margin: 0px 30px 30px 30px;
+        width: 80%;
     }
 }
 
-/* 668px & 720px */
+/* 668px & 683px */
 
-@include mobile(668px, 720px) {
+@include mobile(668px, 683px) {
+
+    /* Header */
+    header .header__contenedor .navbar {
+        margin: 0px 30px 30px 30px;
+    }
+    /* Sucursales */
+    #sucursales .allsucursales {
+        flex-flow: column wrap;
+        margin-bottom: 0px;
+    }
+    #sucursales .allsucursales .allsucursales__sucursales {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
+    }
+}
+
+/* 684px & 720px */
+
+@include mobile(684px, 720px) {
 
     /* Header */
     header .header__contenedor .navbar {
         margin: 0px 30px 30px 30px;
     }
 
-    /* Main */
-
-    #productos .allproducto .allproducto__producto {
-        width: 125px;
-    }
-
-    #nosotros .nosotros .carousel {
-        width: 300px;
-    }
-
-    #nosotros .nosotros .nosotros__texto {
-        width: 300px;
-    }
-
-    #servicios .servicios .carousel {
-        width: 300px;
-    }
-
-    #servicios .servicios .servicios__texto {
-        width: 300px;
-    }
-
-    #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
-        width: 300px;
-    }
-
+    /* Sucursales */
     #sucursales .allsucursales {
+        flex-flow: column wrap;
         margin-bottom: 0px;
     }
-
     #sucursales .allsucursales .allsucursales__sucursales {
-        margin-bottom: 30px;
-    }
-
-    #contacto .allcontacto .formulario #textarea,
-    #contacto .allcontacto .formulario #mail {
-        width: 300px;
-    }
-
-    #contacto .allcontacto .formulario #textarea {
-        height: 160px;
-    }
-
-    #contacto .carousel {
-        margin: 0px 0px 30px 0px;
-        width: 300px;
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
 }
 
-/* 721px & 869px */
+/* 721px & 732px */
 
-@include mobile(721px, 869px) {
+@include mobile(721px, 732px) {
 
-    /* Main */
-
-    #productos .allproducto .allproducto__producto {
-        width: 150px;
-    }
-
-    #nosotros .nosotros .carousel {
-        width: 300px;
-    }
-
-    #nosotros .nosotros .nosotros__texto {
-        width: 300px;
-    }
-
-    #servicios .servicios .carousel {
-        width: 300px;
-    }
-
-    #servicios .servicios .servicios__texto {
-        width: 300px;
-    }
-
-    #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
-        width: 300px;
-    }
-
+    /* Sucursales */
     #sucursales .allsucursales {
+        flex-flow: column wrap;
         margin-bottom: 0px;
     }
-
     #sucursales .allsucursales .allsucursales__sucursales {
-        margin-bottom: 30px;
-    }
-
-    #contacto .allcontacto .formulario #textarea,
-    #contacto .allcontacto .formulario #mail {
-        width: 300px;
-    }
-
-    #contacto .allcontacto .formulario #textarea {
-        height: 160px;
-    }
-
-    #contacto .carousel {
-        margin: 0px 0px 30px 0px;
-        width: 300px;
+        width: 80%;
+        margin: 0px 30px 30px 30px;
     }
 }
 
-/* 870px & 879px */
+/* 733px & 1200px */
 
-@include mobile(870px, 879px) {
-
-    /* Main */
-
-    #productos .allproducto .allproducto__producto {
-        width: 150px;
-    }
-
-    #nosotros .nosotros .carousel {
-        width: 350px;
-    }
-
-    #nosotros .nosotros .nosotros__texto {
-        width: 350px;
-    }
-
-    #servicios .servicios .carousel {
-        width: 350px;
-    }
-
-    #servicios .servicios .servicios__texto {
-        width: 350px;
-    }
-
-    #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
-        width: 350px;
-    }
-
-    #sucursales .allsucursales .allsucursales__sucursales {
-        margin-bottom: 30px;
-    }
-
-    #contacto .allcontacto .formulario #textarea,
-    #contacto .allcontacto .formulario #mail {
-        width: 350px;
-    }
-
-    #contacto .allcontacto .formulario #textarea {
-        height: 210px;
-    }
-
-    #contacto .carousel {
-        margin: 0px 0px 30px 0px;
-        width: 350px;
-    }
-}
-
-/* 880px & 991px */
-
-@include mobile(880px, 991px) {
-
-    /* Main */
-    #productos .allproducto .allproducto__producto {
-        width: 175px;
-    }
-
-    #nosotros .nosotros .carousel {
-        width: 400px;
-    }
-
-    #nosotros .nosotros .nosotros__texto {
-        width: 400px;
-    }
-
-    #servicios .servicios .carousel {
-        width: 400px;
-    }
-
-    #servicios .servicios .servicios__texto {
-        width: 400px;
-    }
-
-    #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
-        width: 400px;
-    }
-
-    #contacto .allcontacto .formulario #textarea,
-    #contacto .allcontacto .formulario #mail {
-        width: 400px;
-    }
-
-    #contacto .allcontacto .formulario #textarea {
-        height: 260px;
-    }
-
-    #contacto .carousel {
-        width: 400px;
-    }
-}
-
-/* 992px & 999px */
-
-@include mobile(992px, 999px) {
-
-    /* Main */
-    #productos .allproducto .allproducto__producto {
-        width: 175px;
-    }
-
-    #nosotros .nosotros .carousel {
-        width: 400px;
-    }
-
-    #nosotros .nosotros .nosotros__texto {
-        width: 400px;
-    }
-
-    #servicios .servicios .carousel {
-        width: 400px;
-    }
-
-    #servicios .servicios .servicios__texto {
-        width: 400px;
-    }
-
-    #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
-        width: 400px;
-    }
-
-    #contacto .allcontacto .formulario #textarea,
-    #contacto .allcontacto .formulario #mail {
-        width: 400px;
-    }
-
-    #contacto .allcontacto .formulario #textarea {
-        height: 260px;
-    }
-
-    #contacto .carousel {
-        width: 400px;
-       
-    }
-}
-
-/* 1000px & 1090px */
-
-@include mobile(1000px, 1090px) {
-
-    /* Main */
-    #productos .allproducto .allproducto__producto {
-        width: 175px;
-    }
-
-    #nosotros .nosotros .carousel {
-        width: 450px;
-    }
-
-    #nosotros .nosotros .carousel .carousel__foto {
-        width: 450px;
-    }
-
-    #nosotros .nosotros .nosotros__texto {
-        width: 450px;
-    }
-
-    #servicios .servicios .carousel {
-        width: 450px;
-    }
-
-    #servicios .servicios .servicios__texto {
-        width: 450px;
-    }
-
-    #sucursales .allsucursales .allsucursales__sucursales .mapa-foto {
-        width: 450px;
-    }
-
-    #contacto .allcontacto .formulario #textarea,
-    #contacto .allcontacto .formulario #mail {
-        width: 450px;
-    }
-
-    #contacto .allcontacto .formulario #textarea {
-        height: 310px;
-    }
-
-    #contacto .carousel {
-        width: 450px;
-    }
-}
-
-/* 1091px & 1200px */
-
-@include mobile(1091px, 1200px) {
-
-}
+@include mobile(733px, 1200px) {}
 
 /* The End, by lubiano83 */

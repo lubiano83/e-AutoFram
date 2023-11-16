@@ -13,7 +13,9 @@
   
       .carousel {
         aspect-ratio: 1/1;
-        width: 500px;
+        max-width: 500px;
+        min-width: 300px;
+        width: 42%;
         margin: 0px 15px 30px 15px;
         box-shadow: 15px 15px 15px map-get($colores, color-5);
         .carousel__foto {
@@ -23,7 +25,9 @@
       }
   
       .servicios__texto {
-        width: 500px;
+        max-width: 500px;
+        min-width: 300px;
+        width: 42%;
         aspect-ratio: 1/1;
         overflow-y: scroll;
         text-align: justify;
